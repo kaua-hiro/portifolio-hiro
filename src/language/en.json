@@ -1,0 +1,186 @@
+{
+    "home": "Home",
+    "about": "About me",
+    "services": "Expertise",
+    "projects": "Projects",
+    "contact": "Contact",
+
+    "site-web": "Corporate Systems",
+    "games": "Automations & APIs",
+
+    "greeting": "Hello",
+    "name": "I am Kauã Hiro Mizumoto",
+    "rol": "Software & AI Engineer",
+    
+    "im": "Who I am",
+    "description": "My name is Kauã Hiro Mizumoto and I work with Systems Engineering.",
+    "my-description": "Development focused on complex business rules, API integrations, and the implementation of Artificial Intelligence to elevate corporate operations.",
+    "years": "Age: ",
+    "from": "Location: ",
+    "btn-know-more": "Learn more",
+    "tools": "Technologies",
+
+    "design": "API Integration",
+    "design-info": "Development and automated data synchronization, connecting internal flows directly to external ecosystems and marketplaces via REST APIs.",
+    "development": "Full-Stack Development",
+    "development-info": "Creation of scalable software architectures using React, Next.js, and Python, focusing on stability and translating business rules into fluid interfaces.",
+    "marketing": "Artificial Intelligence & RAG",
+    "marketing-info": "Implementation of internal virtual assistants using Microsoft Copilot Studio and knowledge management architecture to optimize corporate support.",
+    "maintenance": "SaaS & B2B Systems",
+    "maintenance-info": "Adaptation and development of SaaS platforms from scratch, structuring complex logic for specific market niches.",
+    "seo": "Data Modeling (SQL)",
+    "seo-info": "Structuring relational databases and creating scripts for data crossing, reconciliation, and automated reporting (Power BI).",
+    "optimization": "Operational Automation",
+    "optimization-info": "Engineering of corporate automations, from mass messaging via WhatsApp to monitoring and capturing Electronic Invoices.",
+
+    "btn-more-projects": "More projects",
+
+    "contact-info": "Contact me via: ",
+
+    "footer-info": "Developed by Kauã Hiro Mizumoto",
+    
+    "about-info-1": "I am a Software Developer with a strong focus on Backend, API integrations, and Artificial Intelligence. My main motivation is to use technology to solve business bottlenecks: I transform manual, expensive, and time-consuming processes into automated workflows that reduce operational costs (OPEX) and scale team productivity.",
+    "about-info-2": "My technical foundation consolidates tools such as Python, SQL, JavaScript/React, and FastAPI. In the corporate day-to-day, I work on building end-to-end architectures. My recent deliverables include: • Development of Autonomous AI Agents (Copilots) to optimize logistics operations and democratize data access via natural language. • Systems integration via APIs with major retail marketplaces. • Implementation of Generative AI applied to E-commerce and Marketing flows.",
+    "about-info-3": "I am passionate about productizing Artificial Intelligence. To support this vision, besides being a student of Multiplatform Software Development (Fatec), I hold strategic certifications in AWS Generative AI, Google Gemini, and Cloud Architecture. My focus is not on infrastructure, but rather on systems and product engineering: building clean code, robust APIs, and intelligent integrations that protect the company's revenue and give back time for decision-making.",
+    "btn-cv": "Download CV",
+    
+    "about-skills-1": "Python (FastAPI, Automations): Used for integration engineering and data reconciliation scripts.",
+    "about-skills-2": "JavaScript / TypeScript: Essential for modern systems development and static typing in backend and frontend.",
+    "about-skills-3": "React & Next.js: Core frameworks for creating SaaS platforms and dynamic dashboards.",
+    "about-skills-4": "SQL Server & Relational Databases: Structuring, modeling, and manipulating corporate data.",
+    "about-skills-5": "Microsoft Copilot Studio & RAG: Advanced implementation of virtual assistants based on Generative AI.",
+    "about-skills-6": "REST API Integration: Synchronization of corporate ecosystems and marketplaces.",
+    "about-skills-7": "Version Control (Git): Secure versioning and continuous collaboration in software development.",
+    "about-skills-8": "Requirements Engineering: Ability to translate operational and business needs into programmable solutions.",
+    "about-skills-9": "Logic & Algorithms: Absolute focus on building solid, efficient, and high-performance systemic foundations.",
+
+    "services-price": "Plans",
+    "services-info-title-1": "Basic",
+    "services-info-title-2": "Professional",
+    "services-info-sub-title-1": "Perfect for new businesses",
+    "services-info-sub-title-2": "Designed for medium enterprises",
+    "services-info-sub-title-3": "Excellent for large systems",
+    "services-info-1-p1": " 1 responsive page",
+    "services-info-p2": " +3 sections per page",
+    "services-info-p3": " Contact Form",
+    "services-info-p4": " Domain for 1 year",
+    "services-info-p5": " Hosting for 1 year",
+    "services-info-1-p6": " Delivery in 5 business days",
+    "services-info-2-p1": " 5 responsive pages",
+    "services-info-p6": " Fluid animations",
+    "services-info-p7": " Free maintenance for 6 months",
+    "services-info-2-p6": " Delivery in 7 business days",
+    "services-info-3-p1": " +10 responsive pages",
+    "services-info-3-p7": " Free maintenance for 1 year",
+    "services-info-3-p6": " Delivery in 14 business days",
+    "services-buy": "request",
+    "services-questions": "Frequently Asked Questions",
+    "services-questions-1": "What is a responsive page?",
+    "services-questions-p1": "It is an application that adapts to any device, whether on mobile phones, tablets, or computers, without losing usability.",
+    "services-questions-2": "How do integrations work?",
+    "services-questions-p2": "We build secure bridges (APIs) so that your system can communicate with other tools, automating previously manual processes.",
+    "services-questions-3": "Can AI help my business?",
+    "services-questions-p3": "Yes. Implementing intelligent agents reduces internal support time and automates the search for knowledge in corporate documents.",
+    "services-questions-4": "How is the development process?",
+    "services-questions-p4": "We analyze your company's business rules, design the database architecture, and develop the application with a total focus on scalability.",
+
+    "projects-link": "Access:",
+    "projects-tec": "Tech Stack:",
+
+    "projects-info-17-p1": "TechTeamIA - Corporate Agent, internal virtual assistant using Generative AI and Microsoft Copilot Studio.",
+    "projects-info-17-p2": "Integrated with SharePoint using RAG architecture for immediate resolution of IT, Finance, and Infrastructure tickets.",
+    
+    "projects-info-16-p1": "SaaS Studio Leleks, full-stack platform aimed at managing the aesthetics market.",
+    "projects-info-16-p2": "Developed in Next.js and Prisma, translating complex business rules from the database to the user interface.",
+    
+    "projects-info-15-p1": "Nexus Admin Dashboard, system focused on high performance in data rendering and administration.",
+    "projects-info-15-p2": "Developed in React, TypeScript, and SQL Server for managing access controls and monitoring metrics in real-time.",
+    
+    "projects-info-14-p1": "NFe Qive/Arquivei Automation, corporate integration engineering focused on fiscal data.",
+    "projects-info-14-p2": "Automated reconciliation via Python scripts, crossing information captured from the API directly with Linx ERP data.",
+    
+    "projects-info-13-p1": "Flow-Reminder API, systemic messaging system for automated reminders.",
+    "projects-info-13-p2": "Integration engineering with the WhatsApp API, focused on corporate connection stability and high-volume simultaneous messaging.",
+
+    "projects-info-12-p1": "Every Running, web platform focused on the management and cataloging of sports shoes.",
+    "projects-info-12-p2": "Structured to facilitate advanced product filtering based on budgets and customer reviews.",
+    
+    "projects-info-11-p1": "Plus Anime, video streaming and media indexing web application.",
+    "projects-info-11-p2": "Features a dynamic interface for managing a vast audiovisual catalog, segmented by categories and releases.",
+    
+    "projects-info-10-p1": "Elegant Hand, modern e-commerce built for marketing premium watches.",
+    "projects-info-10-p2": "Developed with deep filtering functionalities by brands and native Dark Mode support.",
+    
+    "projects-info-9-p1": "Vida em papel, web system built for virtual bookstore operations.",
+    "projects-info-9-p2": "Offers a database model segmented into literary categories to optimize user search.",
+    
+    "projects-info-8-p1": "Shop Tec, scalable e-commerce architecture for the technology sector.",
+    "projects-info-8-p2": "Features intelligent digital inventory management and dynamic navigation categories.",
+    
+    "projects-info-7-p1": "Power Engine, application focused on the digital commerce of sports vehicles.",
+    "projects-info-7-p2": "Presents product showcases based on optimized sliders to reduce page loading time.",
+    
+    "projects-info-6-p1": "Spider-Man fan page, conceptual project of information indexing with thematic design.",
+    "projects-info-6-p2": "Structure focused on rendering rich textual content and interactive multi-verse data.",
+    
+    "projects-info-5-p1": "PremierFood, landing page aimed at visual attraction in the gastronomic sector.",
+    "projects-info-5-p2": "Interface built with a focus on smooth transition animations (UI/UX) for conversion optimization.",
+    
+    "projects-info-3-p1": "ProgramCoffe, blog system focused on technical content of extraction processes.",
+    "projects-info-3-p2": "Data organization based on preparation specifications, such as temperature and bean categories.",
+
+    "projectsApp-info-18-p1": "Crypto Exchange, application offering real-time integrations for cryptocurrencies on the Ethereum network.",
+    "projectsApp-info-18-p2": "Features a secure authentication system and consumption of external APIs to render the evolution of financial assets.",
+    
+    "projectsApp-info-17-p2": "Single Page Application (SPA) that consumes data from public APIs, storing responses in a PostgreSQL relational database.",
+    
+    "projectsApp-info-16-p2": "Asynchronous application that consumes a global weather API, returning accurate meteorological data based on searched geolocation.",
+    
+    "projectsApp-info-15-p2": "Direct integration with the Giphy API for real-time requests and dynamic media return.",
+    
+    "projectsApp-info-14-p2": "Custom audio player built purely in JavaScript for media event manipulation in the browser.",
+    
+    "projectsApp-info-13-p2": "REST request tool that scans the public GitHub API to return repository reports and user statistics.",
+    
+    "projectsApp-info-12-p2": "Interactive rendering application based on HTML5 Canvas for coordinate manipulation and real-time visual editing.",
+    
+    "projectsApp-info-11-p2": "Data catalog built via PokeAPI consumption, implementing asynchronous pagination and status rendering.",
+    
+    "projectsApp-info-10-p1": "Client Manager & CRM",
+    "projectsApp-info-10-p2": "CRUD (Create, Read, Update, Delete) system for managing and scheduling technical support tickets for mobile devices.",
+    
+    "projectsApp-info-9-p1": "Pomodoro App",
+    "projectsApp-info-9-p2": "Task manager integrated with a timer featuring strict time rules, managing application state via JavaScript.",
+    
+    "projectsApp-info-8-p1": "Financial Monitoring",
+    "projectsApp-info-8-p2": "Logical weekly budget calculator based on dynamic user input variables.",
+    
+    "projectsApp-info-7-p1": "Risk Calculator (Insurance)",
+    "projectsApp-info-7-p2": "Conditional algorithm that determines the final policy value of a vehicle by crossing manufacturing year and coverage type data.",
+    
+    "projectsApp-info-6-p1": "Shopping Cart Engine",
+    "projectsApp-info-6-p2": "Backend/frontend logic allowing manipulation of arrays and objects for the addition and summation of items and values.",
+    
+    "projectsApp-info-5-p1": "Thread Generator",
+    "projectsApp-info-5-p2": "Core microblogging system that manages application state to allow real-time creation and removal of posts.",
+    
+    "projectsApp-info-4-p1": "Advanced Search Engine (Filters)",
+    "projectsApp-info-4-p2": "Iterative filter algorithm that scans databases to cross complex automotive specifications (transmission, doors, prices).",
+    
+    "projectsApp-info-3-p1": "Classic Form Validator",
+    "projectsApp-info-3-p2": "Front-end engineering for data capture, ensuring sanitization and correct typing in book requests.",
+    
+    "projectsApp-info-2-p1": "To-Do List API",
+    "projectsApp-info-2-p2": "Application based on connected lists allowing boolean status alteration (complete/pending) and algorithmic reordering.",
+    
+    "projectsApp-info-1-p1": "Automatic Travel Budget",
+    "projectsApp-info-1-p2": "Predictive calculation tool that maps financial transportation and destination variables to return a fixed budget.",
+
+    "projectsGame-info-4-p2": "Memory algorithm that monitors simultaneous clicks on card matrices to calculate resolution time.",
+    "projectsGame-info-3-p1": "Multiplayer Chess Engine",
+    "projectsGame-info-3-p2": "Complex logical grid implementation, monitoring legal moves, win conditions, and user interaction.",
+    "projectsGame-info-2-p1": "Snake Game (Rendering)",
+    "projectsGame-info-2-p2": "Mesh movement logic using position arrays, inspired by Arcade classics.",
+    "projectsGame-info-1-p1": "Dynamic Quiz System",
+    "projectsGame-info-1-p2": "Internal database of questions and answers rendered randomly with multiple-choice validation."
+}

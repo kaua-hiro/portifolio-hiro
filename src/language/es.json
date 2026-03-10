@@ -1,0 +1,186 @@
+{
+    "home": "Início",
+    "about": "Sobre mim",
+    "services": "Especialidades",
+    "projects": "Projetos",
+    "contact": "Contato",
+
+    "site-web": "Sistemas Corporativos",
+    "games": "Automações & APIs",
+
+    "greeting": "Olá",
+    "name": "Sou Kauã Hiro Mizumoto",
+    "rol": "Engenheiro de Software & IA",
+    
+    "im": "Quem sou",
+    "description": "Meu nome é Kauã Hiro Mizumoto e atuo com Engenharia de Sistemas.",
+    "my-description": "Desenvolvimento focado em regras de negócio complexas, integrações de APIs e implementação de Inteligência Artificial para elevar operações corporativas.",
+    "years": "Idade: ",
+    "from": "Local: ",
+    "btn-know-more": "Saber mais",
+    "tools": "Tecnologias",
+
+    "design": "Integração de APIs",
+    "design-info": "Desenvolvimento e sincronização de dados automatizada, conectando fluxos internos diretamente a ecossistemas externos e marketplaces via APIs REST.",
+    "development": "Desenvolvimento Full-Stack",
+    "development-info": "Criação de arquiteturas de software escaláveis utilizando React, Next.js e Python, com foco em estabilidade e em traduzir regras de negócio para interfaces fluidas.",
+    "marketing": "Inteligência Artificial & RAG",
+    "marketing-info": "Implementação de assistentes virtuais internos utilizando Microsoft Copilot Studio e arquitetura de gestão de conhecimento para otimização do suporte corporativo.",
+    "maintenance": "Sistemas SaaS & B2B",
+    "maintenance-info": "Adaptação e desenvolvimento de plataformas SaaS do zero, estruturando lógicas complexas para nichos específicos de mercado.",
+    "seo": "Modelagem de Dados (SQL)",
+    "seo-info": "Estruturação de banco de dados relacionais e criação de scripts para cruzamento, reconciliação de dados e automação de relatórios (Power BI).",
+    "optimization": "Automação Operacional",
+    "optimization-info": "Engenharia de automações corporativas, desde disparos em massa via WhatsApp até monitoramento e captação de Notas Fiscais Eletrônicas.",
+
+    "btn-more-projects": "Mais projetos",
+
+    "contact-info": "Fale comigo por: ",
+
+    "footer-info": "Desenvolvido por Kauã Hiro Mizumoto",
+    
+    "about-info-1": "Sou Desenvolvedor de Software com foco em Backend, integrações de APIs e Inteligência Artificial. Minha principal motivação é utilizar a tecnologia para resolver gargalos de negócio: transformo processos manuais, caros e demorados em fluxos automatizados que reduzem custos operacionais (OPEX) e escalam a produtividade das equipes.",
+    "about-info-2": "Minha base técnica consolida ferramentas como Python, SQL, JavaScript/React e FastAPI. No dia a dia corporativo, atuo na construção de arquiteturas de ponta a ponta. Minhas entregas recentes incluem: • Desenvolvimento de Agentes Autônomos de IA (Copilotos) para otimizar operações logísticas e democratizar o acesso a dados via linguagem natural. • Integração de sistemas via APIs com grandes marketplaces do varejo. • Implementação de IA Generativa aplicada a fluxos de E-commerce e Marketing.",
+    "about-info-3": "Sou apaixonado por produtizar a Inteligência Artificial. Para embasar essa visão, além de ser estudante de Desenvolvimento Multiplataforma (Fatec), possuo certificações estratégicas em AWS Generative AI, Google Gemini e Cloud Architects. Meu foco não é infraestrutura, mas sim a engenharia de sistemas e produto: construir código limpo, APIs robustas e integrações inteligentes que protegem a receita da empresa e devolvem tempo para a tomada de decisão.",
+    "btn-cv": "Baixar CV",
+    
+    "about-skills-1": "Python (FastAPI, Automações): Utilizado para engenharia de integrações e scripts de reconciliação de dados.",
+    "about-skills-2": "JavaScript / TypeScript: Essencial para o desenvolvimento de sistemas modernos e tipagem segura no backend e frontend.",
+    "about-skills-3": "React & Next.js: Frameworks base para a criação de plataformas SaaS e dashboards dinâmicos.",
+    "about-skills-4": "SQL Server & Bancos Relacionais: Estruturação, modelagem e manipulação de dados corporativos.",
+    "about-skills-5": "Microsoft Copilot Studio & RAG: Implementação avançada de assistentes virtuais baseados em IA Generativa.",
+    "about-skills-6": "Integração de APIs REST: Sincronização de ecossistemas corporativos e marketplaces.",
+    "about-skills-7": "Controle de Versão (Git): Versionamento seguro e colaboração contínua no desenvolvimento de software.",
+    "about-skills-8": "Engenharia de Requisitos: Capacidade de traduzir necessidades operacionais e de negócio em soluções programáveis.",
+    "about-skills-9": "Lógica & Algoritmos: Foco absoluto em construir bases sistêmicas sólidas, eficientes e de alta performance.",
+
+    "services-price": "Planos",
+    "services-info-title-1": "Básico",
+    "services-info-title-2": "Profissional",
+    "services-info-sub-title-1": "Perfeito para novos negócios",
+    "services-info-sub-title-2": "Projetado para médias empresas",
+    "services-info-sub-title-3": "Excelente para grandes sistemas",
+    "services-info-1-p1": " 1 página responsiva",
+    "services-info-p2": " +3 seções por página",
+    "services-info-p3": " Formulário de Contato",
+    "services-info-p4": " Domínio por 1 ano",
+    "services-info-p5": " Hospedagem por 1 ano",
+    "services-info-1-p6": " Entrega em 5 dias úteis",
+    "services-info-2-p1": " 5 páginas responsivas",
+    "services-info-p6": " Animações fluidas",
+    "services-info-p7": " Manutenção gratuita por 6 meses",
+    "services-info-2-p6": " Entrega em 7 dias úteis",
+    "services-info-3-p1": " +10 páginas responsivas",
+    "services-info-3-p7": " Manutenção gratuita por 1 ano",
+    "services-info-3-p6": " Entrega em 14 dias úteis",
+    "services-buy": "solicitar",
+    "services-questions": "Perguntas frequentes",
+    "services-questions-1": "O que é uma página responsiva?",
+    "services-questions-p1": "É uma aplicação que se adapta a qualquer dispositivo, seja em celulares, tablets ou computadores, sem perder a usabilidade.",
+    "services-questions-2": "Como funcionam as integrações?",
+    "services-questions-p2": "Construímos pontes seguras (APIs) para que o seu sistema se comunique com outras ferramentas, automatizando processos que antes eram manuais.",
+    "services-questions-3": "A IA pode ajudar o meu negócio?",
+    "services-questions-p3": "Sim. A implementação de agentes inteligentes reduz o tempo de suporte interno e automatiza a busca por conhecimento em documentos corporativos.",
+    "services-questions-4": "Como é o processo de desenvolvimento?",
+    "services-questions-p4": "Analisamos a regra de negócio da sua empresa, desenhamos a arquitetura do banco de dados e desenvolvemos a aplicação com foco total na escalabilidade.",
+
+    "projects-link": "Acessar:",
+    "projects-tec": "Stack Tecnológica:",
+
+    "projects-info-17-p1": "TechTeamIA - Agente Corporativo, assistente virtual interno utilizando IA Generativa e Microsoft Copilot Studio.",
+    "projects-info-17-p2": "Integrado ao SharePoint com arquitetura RAG para resolução imediata de chamados de TI, Finanças e Infraestrutura.",
+    
+    "projects-info-16-p1": "SaaS Studio Leleks, plataforma full-stack voltada para a gestão do mercado de estética.",
+    "projects-info-16-p2": "Desenvolvimento em Next.js e Prisma, traduzindo regras de negócio complexas desde o banco de dados até a interface do usuário.",
+    
+    "projects-info-15-p1": "Nexus Admin Dashboard, sistema focado em alta performance na renderização e administração de dados.",
+    "projects-info-15-p2": "Desenvolvido em React, TypeScript e SQL Server para gestão de controles de acesso e monitoramento de métricas em tempo real.",
+    
+    "projects-info-14-p1": "Automação NFe Qive/Arquivei, engenharia de integração corporativa focada em dados fiscais.",
+    "projects-info-14-p2": "Reconciliação automatizada via scripts em Python, cruzando informações captadas da API diretamente com os dados do ERP Linx.",
+    
+    "projects-info-13-p1": "Flow-Reminder API, sistema sistêmico de mensageria para automação de lembretes.",
+    "projects-info-13-p2": "Engenharia de integração com a API do WhatsApp, focada em estabilidade de conexão corporativa e alto volume de disparos simultâneos.",
+
+    "projects-info-12-p1": "Every Running, plataforma web focada no gerenciamento e catálogo de calçados esportivos.",
+    "projects-info-12-p2": "Estruturada para facilitar a filtragem avançada de produtos baseada em orçamentos e nas avaliações dos clientes.",
+    
+    "projects-info-11-p1": "Plus Anime, aplicação web de streaming e indexação de mídia em vídeo.",
+    "projects-info-11-p2": "Possui uma interface dinâmica para gerenciamento de um vasto catálogo audiovisual, segmentado por categorias e lançamentos.",
+    
+    "projects-info-10-p1": "Elegant Hand, e-commerce moderno construído para comercialização de relógios premium.",
+    "projects-info-10-p2": "Desenvolvido com funcionalidades de filtragem profunda por marcas e suporte a modo escuro (Dark Mode) nativo.",
+    
+    "projects-info-9-p1": "Vida em papel, sistema web construído para operações de uma livraria virtual.",
+    "projects-info-9-p2": "Oferece um modelo de banco de dados segmentado em categorias literárias para otimização da busca dos usuários.",
+    
+    "projects-info-8-p1": "Shop Tec, arquitetura de e-commerce escalável para o setor tecnológico.",
+    "projects-info-8-p2": "Conta com uma gestão inteligente de estoque digital e categorias dinâmicas de navegação.",
+    
+    "projects-info-7-p1": "Power Engine, aplicação focada no comércio digital de veículos esportivos.",
+    "projects-info-7-p2": "Apresenta vitrines de produtos baseadas em sliders otimizados para redução no tempo de carregamento da página.",
+    
+    "projects-info-6-p1": "Spider-Man fan page, projeto conceitual de indexação de informações com design temático.",
+    "projects-info-6-p2": "Estrutura focada em renderização de conteúdo textual rico e dados interativos de multi-verso.",
+    
+    "projects-info-5-p1": "PremierFood, landing page voltada para atração visual no setor gastronômico.",
+    "projects-info-5-p2": "Interface construída com foco em animações de transição suaves (UI/UX) para otimização de conversão.",
+    
+    "projects-info-3-p1": "ProgramCoffe, sistema de blog focado em conteúdo técnico de processos de extração.",
+    "projects-info-3-p2": "Organização de dados baseada em especificações de preparo, como temperatura e categorias de grãos.",
+
+    "projectsApp-info-18-p1": "Crypto Exchange, aplicação que oferece integrações em tempo real para criptomoedas na rede Ethereum.",
+    "projectsApp-info-18-p2": "Possui sistema seguro de autenticação e consumo de APIs externas para renderizar a evolução dos ativos financeiros.",
+    
+    "projectsApp-info-17-p2": "Single Page Application (SPA) que consome dados de APIs públicas, armazenando as respostas em um banco relacional PostgreSQL.",
+    
+    "projectsApp-info-16-p2": "Aplicação assíncrona que consome uma API de clima global, retornando dados meteorológicos precisos com base na geolocalização pesquisada.",
+    
+    "projectsApp-info-15-p2": "Integração direta com a API do Giphy para requisições em tempo real e retorno dinâmico de mídias.",
+    
+    "projectsApp-info-14-p2": "Reprodutor de áudio customizado construído puramente em JavaScript para manipulação de eventos de mídia no navegador.",
+    
+    "projectsApp-info-13-p2": "Ferramenta de requisição REST que varre a API pública do GitHub para retornar relatórios de repositórios e estatísticas de usuários.",
+    
+    "projectsApp-info-12-p2": "Aplicação interativa de renderização baseada em Canvas do HTML5 para manipulação de coordenadas e edição visual em tempo real.",
+    
+    "projectsApp-info-11-p2": "Catálogo de dados construído via consumo da PokeAPI, implementando paginação assíncrona e renderização de status.",
+    
+    "projectsApp-info-10-p1": "Gestor de Clientes & CRM",
+    "projectsApp-info-10-p2": "Sistema de CRUD (Create, Read, Update, Delete) para gestão e agendamento de chamados técnicos de dispositivos móveis.",
+    
+    "projectsApp-info-9-p1": "Pomodoro App",
+    "projectsApp-info-9-p2": "Gerenciador de tarefas integrado a um cronômetro com regras de tempo estritas, gerenciando o estado da aplicação via JavaScript.",
+    
+    "projectsApp-info-8-p1": "Monitoramento Financeiro",
+    "projectsApp-info-8-p2": "Calculadora lógica de orçamento semanal baseada em variáveis dinâmicas de input do usuário.",
+    
+    "projectsApp-info-7-p1": "Calculadora de Risco (Seguros)",
+    "projectsApp-info-7-p2": "Algoritmo condicional que determina o valor final da apólice de um veículo cruzando dados de ano de fabricação e tipo de cobertura.",
+    
+    "projectsApp-info-6-p1": "Motor de Carrinho de Compras",
+    "projectsApp-info-6-p2": "Lógica de backend/frontend que permite manipulação de arrays e objetos para adição e somatório de itens e valores.",
+    
+    "projectsApp-info-5-p1": "Gerador de Threads",
+    "projectsApp-info-5-p2": "Sistema base de microblogging que gerencia o estado da aplicação para permitir a criação e remoção em tempo real de publicações.",
+    
+    "projectsApp-info-4-p1": "Motor de Busca Avançado (Filtros)",
+    "projectsApp-info-4-p2": "Algoritmo de filtro iterativo que varre bancos de dados para cruzar especificações automotivas complexas (transmissão, portas, valores).",
+    
+    "projectsApp-info-3-p1": "Validador de Formulário Clássico",
+    "projectsApp-info-3-p2": "Engenharia de front-end para captação de dados, garantindo sanitização e tipagem correta em solicitações de livros.",
+    
+    "projectsApp-info-2-p1": "To-Do List API",
+    "projectsApp-info-2-p2": "Aplicação baseada em listas conectadas que permite alteração de status booleano (completo/pendente) e reordenação algorítmica.",
+    
+    "projectsApp-info-1-p1": "Orçamento de Viagem Automático",
+    "projectsApp-info-1-p2": "Ferramenta de cálculo preditivo que mapeia variáveis financeiras de transporte e destino para devolver um orçamento fechado.",
+
+    "projectsGame-info-4-p2": "Algoritmo de memória que monitora cliques simultâneos em matrizes de cards para calcular o tempo de resolução.",
+    "projectsGame-info-3-p1": "Motor de Xadrez Multijogador",
+    "projectsGame-info-3-p2": "Implementação lógica complexa em grade, monitorando movimentos legais, condições de vitória e interação entre usuários.",
+    "projectsGame-info-2-p1": "Snake Game (Renderização)",
+    "projectsGame-info-2-p2": "Lógica de movimentação em malha utilizando arrays de posição, inspirada nos clássicos de Arcade.",
+    "projectsGame-info-1-p1": "Sistema Dinâmico de Quiz",
+    "projectsGame-info-1-p2": "Banco de dados interno de perguntas e respostas renderizado aleatoriamente com validação de múltiplas escolhas."
+}
