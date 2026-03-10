@@ -1,7 +1,8 @@
 {
   "name": "portafolio-Kaua_Mizumoto",
-  "homepage": "https://Kaua_Mizumoto.github.io/portafolio-Kaua_Mizumoto/",
+  "homepage": "https://kaua-hiro.github.io/portifolio-hiro/",
   "version": "1.5.0",
+  "author": "Kauã Hiro Mizumoto",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
