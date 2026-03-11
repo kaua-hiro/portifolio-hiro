@@ -53,7 +53,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="I am a Software Developer with a strong focus on Backend, API integrations, and Artificial Intelligence. My main motivation is to use technology to solve business bottlenecks: I transform manual, expensive, and time-consuming processes into automated workflows that reduce operational costs (OPEX) and scale team productivity."
                 />
               </p>
 
@@ -61,14 +61,14 @@ const About = () => {
                 <p>
                   <FormattedMessage
                     id='about-info-2'
-                    defaultMessage='I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.'
+                    defaultMessage='My technical foundation consolidates tools such as Python, SQL, JavaScript/React, and FastAPI. In the corporate day-to-day, I work on building end-to-end architectures. My recent deliverables include: • Development of Autonomous AI Agents (Copilots) to optimize logistics operations and democratize data access via natural language. • Systems integration via APIs with major retail marketplaces. • Implementation of Generative AI applied to E-commerce and Marketing flows.'
                   />
                 </p>
 
                 <p>
                   <FormattedMessage
                     id='about-info-3'
-                    defaultMessage="I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development."
+                    defaultMessage="I am passionate about productizing Artificial Intelligence. To support this vision, besides being a student of Multiplatform Software Development (Fatec), I hold strategic certifications in AWS Generative AI, Google Gemini, and Cloud Architecture. My focus is not on infrastructure, but rather on systems and product engineering: building clean code, robust APIs, and intelligent integrations that protect the company's revenue and give back time for decision-making."
                   />
                 </p>
               </div>
@@ -84,8 +84,8 @@ const About = () => {
             <h1 className="heading">Skills</h1>
             <div className="skill-container">
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="HTML" className="skills-img icon-li" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" />
-                <h2 className="skill-name">HTML</h2>
+                <img alt="Python" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+                <h2 className="skill-name">Python</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-1'
@@ -94,8 +94,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="CSS" className="skills-img icon-li" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" />
-                <h2 className="skill-name">CSS</h2>
+                <img alt="CSS" className="skills-img icon-li" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" title="Java Script" />
+                <h2 className="skill-name">JavaScript</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-2'
@@ -104,8 +104,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="Js" className="skills-img icon-li" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" title="Java Script" />
-                <h2 className="skill-name">Javascript</h2>
+                <img alt="Js" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" />
+                <h2 className="skill-name">React</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-3'
@@ -114,8 +114,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="Sass" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" title="Sass" />
-                <h2 className="skill-name">Sass</h2>
+                <img alt="Sass" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" title="MySQL" />
+                <h2 className="skill-name">MySQL</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-4'
@@ -124,8 +124,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-down" data-aos-delay="300">
-                <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" />
-                <h2 className="skill-name">Bootstrap</h2>
+                <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" title="Node.js" />
+                <h2 className="skill-name">Node.js</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-5'
@@ -134,8 +134,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="jQuery" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" title="jQuery" />
-                <h2 className="skill-name">jQuery</h2>
+                <img alt="FastAPI" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" title="FastAPI" />
+                <h2 className="skill-name">FastAPI</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-6'
@@ -144,8 +144,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="react" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="jQuery" />
-                <h2 className="skill-name">ReactJs</h2>
+                <img alt="Git" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" />
+                <h2 className="skill-name">Git</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-7'
@@ -154,8 +154,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="nodejs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="jQuery" />
-                <h2 className="skill-name">NodeJs</h2>
+                <img alt="html5" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" />
+                <h2 className="skill-name">HTML5</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-8'
@@ -164,8 +164,8 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="jQuery" />
-                <h2 className="skill-name">Express</h2>
+                <img alt="css3" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" />
+                <h2 className="skill-name">CSS3</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-9'

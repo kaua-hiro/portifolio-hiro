@@ -152,6 +152,10 @@ const About = () => (
                         <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
                         <h5>MongodDB</h5>
                     </div>
+                    <div>
+                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" />
+                        <h5>SQL Server</h5>
+                    </div>
                 </div>
                 <h4>
                     <FormattedMessage

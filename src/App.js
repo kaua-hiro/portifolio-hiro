@@ -33,8 +33,8 @@ function App() {
 
                     <div className='loading-pag'>
                         <div className="loader">
-                            <span>=(Kaua_Mizumoto)=></span>
-                            <span>=(Kaua_Mizumoto)=></span>
+                            <span>Kaua Hiro Mizumoto</span>
+                            <span>Kaua Hiro Mizumoto</span>
                         </div>
                     </div>
 

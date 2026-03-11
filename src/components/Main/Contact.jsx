@@ -26,7 +26,7 @@ const Contact = () => (
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                    'Gmail', 1500,
+                    'Email', 1500,
                     'WhatsApp', 1500,
                     'Instragram', 1500,
                     'Telegram', 1500,
@@ -47,7 +47,7 @@ const Contact = () => (
                     <span className="fab fas fa-envelope"></span>
                 </div>
                 <div className="text">
-                    Gmail
+                    Email
                 </div>
             </a>
             <a href="https://api.whatsapp.com/send?phone=5511968389983" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
