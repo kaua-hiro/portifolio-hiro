@@ -24,99 +24,99 @@ const Services = () => {
           <h2 className="heading">
             <FormattedMessage
               id='services'
-              defaultMessage='Services'
+              defaultMessage='Especialidades'
             />
           </h2>
           <div className="row">
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
-              <i className="fas fa-drafting-compass"></i>
+              <i className="fas fa-code"></i>
               <h3>
-                <FormattedMessage
-                  id='design'
-                  defaultMessage='ADesign UX/UIboult me'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='design-info'
-                  defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
-                />
-              </p>
+                    <FormattedMessage
+                        id='design'
+                        defaultMessage='Engenharia de Software'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='design-info'
+                        defaultMessage='Desenvolvimento full-stack de plataformas escaláveis e sistemas corporativos robustos utilizando Python, React e arquiteturas modernas.'
+                    />
+                </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="300">
-              <i className="fas fa-laptop"></i>
+              <i className="fas fa-robot"></i>
               <h3>
-                <FormattedMessage
-                  id='development'
-                  defaultMessage='Web development'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='development-info'
-                  defaultMessage='Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.'
-                />
-              </p>
+                    <FormattedMessage
+                        id='development'
+                        defaultMessage='Agentes de IA & Copilotos'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='development-info'
+                        defaultMessage='Criação de assistentes virtuais inteligentes (LLMs) e chatbots com Microsoft Copilot Studio para automação de suporte técnico e atendimento.'
+                    />
+                </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-              <i className="fas fa-chart-line"></i>
+              <i className="fas fa-cogs"></i>
               <h3>
-                <FormattedMessage
-                  id='marketing'
-                  defaultMessage='Digital marketing'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='marketing-info'
-                  defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
-                />
-              </p>
+                    <FormattedMessage
+                        id='marketing'
+                        defaultMessage='Automação de Processos (RPA)'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='marketing-info'
+                        defaultMessage='Automação de fluxos corporativos, relatórios fiscais e tarefas manuais críticas utilizando Power Automate e scripts em Python.'
+                    />
+                </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="500">
-              <i className="fas fa-wrench"></i>
+              <i className="fas fa-network-wired"></i>
               <h3>
-                <FormattedMessage
-                  id='maintenance'
-                  defaultMessage='Web maintenance'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='maintenance-info'
-                  defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
-                />
-              </p>
+                    <FormattedMessage
+                        id='maintenance'
+                        defaultMessage='Integração de APIs e Sistemas'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='maintenance-info'
+                        defaultMessage='Conexão de ponta a ponta entre plataformas, ERPs, bancos de dados e serviços web, garantindo sincronização e dados em tempo real.'
+                    />
+                </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="600">
-              <i className="fas fa-search"></i>
+              <i className="fas fa-database"></i>
               <h3>
-                <FormattedMessage
-                  id='seo'
-                  defaultMessage='Web positioning (SEO)'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='seo-info'
-                  defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
-                />
-              </p>
+                    <FormattedMessage
+                        id='seo'
+                        defaultMessage='Banco de Dados & SQL'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='seo-info'
+                        defaultMessage='Modelagem, integração e manutenção de bancos de dados relacionais para manipulação complexa e integridade das informações.'
+                    />
+                </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="700">
-              <i className="fas fa-tachometer-alt"></i>
+              <i className="fas fa-lightbulb"></i>
               <h3>
-                <FormattedMessage
-                  id='optimization'
-                  defaultMessage='Website optimization'
-                />
-              </h3>
-              <p>
-                <FormattedMessage
-                  id='optimization-info'
-                  defaultMessage='Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website'
-                />
-              </p>
+                    <FormattedMessage
+                        id='optimization'
+                        defaultMessage='IA Estratégica para Negócios'
+                    />
+                </h3>
+                <p>
+                    <FormattedMessage
+                        id='optimization-info'
+                        defaultMessage='Planejamento e implementação de roteiros de Inteligência Artificial corporativa para alavancar a produtividade e os resultados do negócio.'
+                    />
+                </p>
             </div>
           </div>
         </section>

@@ -20,18 +20,23 @@
     "btn-know-more": "Saber mais",
     "tools": "Tecnologias",
 
-    "design": "Integração de APIs",
-    "design-info": "Desenvolvimento e sincronização de dados automatizada, conectando fluxos internos diretamente a ecossistemas externos e marketplaces via APIs REST.",
-    "development": "Desenvolvimento Full-Stack",
-    "development-info": "Criação de arquiteturas de software escaláveis utilizando React, Next.js e Python, com foco em estabilidade e em traduzir regras de negócio para interfaces fluidas.",
-    "marketing": "Inteligência Artificial & RAG",
-    "marketing-info": "Implementação de assistentes virtuais internos utilizando Microsoft Copilot Studio e arquitetura de gestão de conhecimento para otimização do suporte corporativo.",
-    "maintenance": "Sistemas SaaS & B2B",
-    "maintenance-info": "Adaptação e desenvolvimento de plataformas SaaS do zero, estruturando lógicas complexas para nichos específicos de mercado.",
-    "seo": "Modelagem de Dados (SQL)",
-    "seo-info": "Estruturação de banco de dados relacionais e criação de scripts para cruzamento, reconciliação de dados e automação de relatórios (Power BI).",
-    "optimization": "Automação Operacional",
-    "optimization-info": "Engenharia de automações corporativas, desde disparos em massa via WhatsApp até monitoramento e captação de Notas Fiscais Eletrônicas.",
+    "design": "Engenharia de Software",
+    "design-info": "Desenvolvimento full-stack de plataformas escaláveis e sistemas corporativos robustos utilizando Python, React e arquiteturas modernas.",
+
+    "development": "Agentes de IA & Copilotos",
+    "development-info": "Criação de assistentes virtuais inteligentes (LLMs) e chatbots com Microsoft Copilot Studio para automação de suporte técnico e atendimento.",
+
+    "marketing": "Automação de Processos (RPA)",
+    "marketing-info": "Automação de fluxos corporativos, relatórios fiscais e tarefas manuais críticas utilizando Power Automate e scripts em Python.",
+
+    "maintenance": "Integração de APIs e Sistemas",
+    "maintenance-info": "Conexão de ponta a ponta entre plataformas, ERPs, bancos de dados e serviços web, garantindo sincronização e dados em tempo real.",
+
+    "seo": "Banco de Dados & SQL",
+    "seo-info": "Modelagem, integração e manutenção de bancos de dados relacionais para manipulação complexa e integridade das informações.",
+
+    "optimization": "IA Estratégica para Negócios",
+    "optimization-info": "Planejamento e implementação de roteiros de Inteligência Artificial corporativa para alavancar a produtividade e os resultados do negócio.",
 
     "btn-more-projects": "Mais projetos",
 
@@ -47,7 +52,7 @@
     "about-skills-1": "Python (FastAPI, Automações): Utilizado para engenharia de integrações e scripts de reconciliação de dados.",
     "about-skills-2": "JavaScript / TypeScript: Essencial para o desenvolvimento de sistemas modernos e tipagem segura no backend e frontend.",
     "about-skills-3": "React & Next.js: Frameworks base para a criação de plataformas SaaS e dashboards dinâmicos.",
-    "about-skills-4": "SQL Server & Bancos Relacionais: Estruturação, modelagem e manipulação de dados corporativos.",
+    "about-skills-4": "SQL & Bancos Relacionais: Estruturação, modelagem e manipulação de dados corporativos.",
     "about-skills-5": "Node.js: Ambiente de execução JavaScript rápido e escalável para construção de aplicações server-side e ferramentas de rede.",
     "about-skills-6": "Integração de APIs REST: Sincronização de ecossistemas corporativos e marketplaces.",
     "about-skills-7": "Controle de Versão (Git): Versionamento seguro e colaboração contínua no desenvolvimento de software.",
