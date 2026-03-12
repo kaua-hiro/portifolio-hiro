@@ -332,3 +332,12 @@
     width: 60%;
   }
 }
+
+/* Força todas as imagens do carrossel a terem o mesmo tamanho exato */
+.proyectos-slider .caja img {
+    width: 100%;
+    height: 200px; /* Ajuste esse valor se achar que ficou muito alto ou muito baixo */
+    object-fit: cover; /* Faz a imagem preencher a caixa e corta o excesso sem distorcer */
+    object-position: center; /* Centraliza a imagem no meio do corte */
+    border-radius: 10px 10px 10px 10px; /* Mantém as bordinhas arredondadas no topo */
+}

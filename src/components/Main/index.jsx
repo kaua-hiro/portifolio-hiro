@@ -12,7 +12,7 @@ const Main = () => (
 
         <Service />
         
-        {/* <Project /> */}
+        <Project />
 
         <Contact />
     </main>

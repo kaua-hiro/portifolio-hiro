@@ -92,100 +92,33 @@
     "projects-link": "Acessar:",
     "projects-tec": "Stack Tecnológica:",
 
-    "projects-info-17-p1": "TechTeamIA - Agente Corporativo, assistente virtual interno utilizando IA Generativa e Microsoft Copilot Studio.",
-    "projects-info-17-p2": "Integrado ao SharePoint com arquitetura RAG para resolução imediata de chamados de TI, Finanças e Infraestrutura.",
+    "projects-info-1-p1": "Nexus Admin Dashboard, sistema SaaS multi-tenant focado em alta performance na renderização e administração de dados.",
+    "projects-info-1-p2": "Desenvolvido em Next.js, TypeScript e Prisma para gestão de prestação de serviços, controles de acesso e monitoramento de métricas em tempo real.",
     
-    "projects-info-16-p1": "SaaS Studio Leleks, plataforma full-stack voltada para a gestão do mercado de estética.",
-    "projects-info-16-p2": "Desenvolvimento em Next.js e Prisma, traduzindo regras de negócio complexas desde o banco de dados até a interface do usuário.",
+    "projects-info-2-p1": "TechTeamIA - Agente Corporativo, assistente virtual interno utilizando IA Generativa e Microsoft Copilot Studio.",
+    "projects-info-2-p2": "Integrado ao SharePoint com arquitetura RAG para resolução imediata de chamados de suporte técnico, TI e infraestrutura.",
     
-    "projects-info-15-p1": "Nexus Admin Dashboard, sistema focado em alta performance na renderização e administração de dados.",
-    "projects-info-15-p2": "Desenvolvido em React, TypeScript e SQL Server para gestão de controles de acesso e monitoramento de métricas em tempo real.",
+    "projects-info-3-p1": "Automação NFe Qive/Arquivei, engenharia de integração corporativa focada em dados fiscais.",
+    "projects-info-3-p2": "Reconciliação automatizada via scripts em Python, cruzando informações captadas da API diretamente com os dados do ERP e banco SQL.",
     
-    "projects-info-14-p1": "Automação NFe Qive/Arquivei, engenharia de integração corporativa focada em dados fiscais.",
-    "projects-info-14-p2": "Reconciliação automatizada via scripts em Python, cruzando informações captadas da API diretamente com os dados do ERP Linx.",
+    "projects-info-4-p1": "Flow-Reminder API, microsserviço de mensageria para automação de lembretes corporativos.",
+    "projects-info-4-p2": "Engenharia de integração escalável com a API do WhatsApp desenvolvida em TypeScript, focada em estabilidade e alto volume de disparos.",
     
-    "projects-info-13-p1": "Flow-Reminder API, sistema sistêmico de mensageria para automação de lembretes.",
-    "projects-info-13-p2": "Engenharia de integração com a API do WhatsApp, focada em estabilidade de conexão corporativa e alto volume de disparos simultâneos.",
+    "projects-info-5-p1": "Crypto Exchange, aplicação que oferece integrações em tempo real para criptomoedas e ativos globais.",
+    "projects-info-5-p2": "Desenvolvida em React, possui autenticação segura e consumo de APIs financeiras externas para renderizar a evolução dos ativos instantaneamente.",
+    
+    "projects-info-6-p1": "Bot de Dados Econômicos, pipeline de dados automatizado para acompanhamento de indicadores financeiros.",
+    "projects-info-6-p2": "Consome a API do Banco Central do Brasil (BCB), sincroniza com SQL Server e distribui relatórios diários via Discord Webhook.",
 
-    "projects-info-12-p1": "Every Running, plataforma web focada no gerenciamento e catálogo de calçados esportivos.",
-    "projects-info-12-p2": "Estruturada para facilitar a filtragem avançada de produtos baseada em orçamentos e nas avaliações dos clientes.",
-    
-    "projects-info-11-p1": "Plus Anime, aplicação web de streaming e indexação de mídia em vídeo.",
-    "projects-info-11-p2": "Possui uma interface dinâmica para gerenciamento de um vasto catálogo audiovisual, segmentado por categorias e lançamentos.",
-    
-    "projects-info-10-p1": "Elegant Hand, e-commerce moderno construído para comercialização de relógios premium.",
-    "projects-info-10-p2": "Desenvolvido com funcionalidades de filtragem profunda por marcas e suporte a modo escuro (Dark Mode) nativo.",
-    
-    "projects-info-9-p1": "Vida em papel, sistema web construído para operações de uma livraria virtual.",
-    "projects-info-9-p2": "Oferece um modelo de banco de dados segmentado em categorias literárias para otimização da busca dos usuários.",
-    
-    "projects-info-8-p1": "Shop Tec, arquitetura de e-commerce escalável para o setor tecnológico.",
-    "projects-info-8-p2": "Conta com uma gestão inteligente de estoque digital e categorias dinâmicas de navegação.",
-    
-    "projects-info-7-p1": "Power Engine, aplicação focada no comércio digital de veículos esportivos.",
-    "projects-info-7-p2": "Apresenta vitrines de produtos baseadas em sliders otimizados para redução no tempo de carregamento da página.",
-    
-    "projects-info-6-p1": "Spider-Man fan page, projeto conceitual de indexação de informações com design temático.",
-    "projects-info-6-p2": "Estrutura focada em renderização de conteúdo textual rico e dados interativos de multi-verso.",
-    
-    "projects-info-5-p1": "PremierFood, landing page voltada para atração visual no setor gastronômico.",
-    "projects-info-5-p2": "Interface construída com foco em animações de transição suaves (UI/UX) para otimização de conversão.",
-    
-    "projects-info-3-p1": "ProgramCoffe, sistema de blog focado em conteúdo técnico de processos de extração.",
-    "projects-info-3-p2": "Organização de dados baseada em especificações de preparo, como temperatura e categorias de grãos.",
+    "projects-info-7-p1": "Pokedex API, aplicação frontend para consumo de REST API em tempo real.",
+    "projects-info-7-p2": "Catálogo dinâmico construído via integração com a PokeAPI, implementando paginação assíncrona, filtros de busca e renderização de status dos componentes.",
 
-    "projectsApp-info-18-p1": "Crypto Exchange, aplicação que oferece integrações em tempo real para criptomoedas na rede Ethereum.",
-    "projectsApp-info-18-p2": "Possui sistema seguro de autenticação e consumo de APIs externas para renderizar a evolução dos ativos financeiros.",
+    "projects-info-8-p1": "BarberLab SaaS, sistema full-stack para agendamento online e gestão inteligente de barbearias.",
+    "projects-info-8-p2": "Arquitetura construída em Next.js (SSR) e Prisma ORM (PostgreSQL), integrando autenticação segura, busca dinâmica e painel unificado de reservas.",
     
-    "projectsApp-info-17-p2": "Single Page Application (SPA) que consome dados de APIs públicas, armazenando as respostas em um banco relacional PostgreSQL.",
+    "projects-info-9-p1": "Studio Leleks, landing page moderna e responsiva focada na conversão para barbearia premium.",
+    "projects-info-9-p2": "Construída com React, TypeScript e Vite. Alta performance e acessibilidade garantidas através da integração de Tailwind CSS, shadcn/ui e animações fluidas.",
     
-    "projectsApp-info-16-p2": "Aplicação assíncrona que consome uma API de clima global, retornando dados meteorológicos precisos com base na geolocalização pesquisada.",
-    
-    "projectsApp-info-15-p2": "Integração direta com a API do Giphy para requisições em tempo real e retorno dinâmico de mídias.",
-    
-    "projectsApp-info-14-p2": "Reprodutor de áudio customizado construído puramente em JavaScript para manipulação de eventos de mídia no navegador.",
-    
-    "projectsApp-info-13-p2": "Ferramenta de requisição REST que varre a API pública do GitHub para retornar relatórios de repositórios e estatísticas de usuários.",
-    
-    "projectsApp-info-12-p2": "Aplicação interativa de renderização baseada em Canvas do HTML5 para manipulação de coordenadas e edição visual em tempo real.",
-    
-    "projectsApp-info-11-p2": "Catálogo de dados construído via consumo da PokeAPI, implementando paginação assíncrona e renderização de status.",
-    
-    "projectsApp-info-10-p1": "Gestor de Clientes & CRM",
-    "projectsApp-info-10-p2": "Sistema de CRUD (Create, Read, Update, Delete) para gestão e agendamento de chamados técnicos de dispositivos móveis.",
-    
-    "projectsApp-info-9-p1": "Pomodoro App",
-    "projectsApp-info-9-p2": "Gerenciador de tarefas integrado a um cronômetro com regras de tempo estritas, gerenciando o estado da aplicação via JavaScript.",
-    
-    "projectsApp-info-8-p1": "Monitoramento Financeiro",
-    "projectsApp-info-8-p2": "Calculadora lógica de orçamento semanal baseada em variáveis dinâmicas de input do usuário.",
-    
-    "projectsApp-info-7-p1": "Calculadora de Risco (Seguros)",
-    "projectsApp-info-7-p2": "Algoritmo condicional que determina o valor final da apólice de um veículo cruzando dados de ano de fabricação e tipo de cobertura.",
-    
-    "projectsApp-info-6-p1": "Motor de Carrinho de Compras",
-    "projectsApp-info-6-p2": "Lógica de backend/frontend que permite manipulação de arrays e objetos para adição e somatório de itens e valores.",
-    
-    "projectsApp-info-5-p1": "Gerador de Threads",
-    "projectsApp-info-5-p2": "Sistema base de microblogging que gerencia o estado da aplicação para permitir a criação e remoção em tempo real de publicações.",
-    
-    "projectsApp-info-4-p1": "Motor de Busca Avançado (Filtros)",
-    "projectsApp-info-4-p2": "Algoritmo de filtro iterativo que varre bancos de dados para cruzar especificações automotivas complexas (transmissão, portas, valores).",
-    
-    "projectsApp-info-3-p1": "Validador de Formulário Clássico",
-    "projectsApp-info-3-p2": "Engenharia de front-end para captação de dados, garantindo sanitização e tipagem correta em solicitações de livros.",
-    
-    "projectsApp-info-2-p1": "To-Do List API",
-    "projectsApp-info-2-p2": "Aplicação baseada em listas conectadas que permite alteração de status booleano (completo/pendente) e reordenação algorítmica.",
-    
-    "projectsApp-info-1-p1": "Orçamento de Viagem Automático",
-    "projectsApp-info-1-p2": "Ferramenta de cálculo preditivo que mapeia variáveis financeiras de transporte e destino para devolver um orçamento fechado.",
-
-    "projectsGame-info-4-p2": "Algoritmo de memória que monitora cliques simultâneos em matrizes de cards para calcular o tempo de resolução.",
-    "projectsGame-info-3-p1": "Motor de Xadrez Multijogador",
-    "projectsGame-info-3-p2": "Implementação lógica complexa em grade, monitorando movimentos legais, condições de vitória e interação entre usuários.",
-    "projectsGame-info-2-p1": "Snake Game (Renderização)",
-    "projectsGame-info-2-p2": "Lógica de movimentação em malha utilizando arrays de posição, inspirada nos clássicos de Arcade.",
-    "projectsGame-info-1-p1": "Sistema Dinâmico de Quiz",
-    "projectsGame-info-1-p2": "Banco de dados interno de perguntas e respostas renderizado aleatoriamente com validação de múltiplas escolhas."
+    "projects-info-10-p1": "Studio Liliam, landing page de alta conversão para clínica de estética facial e micropigmentação.",
+    "projects-info-10-p2": "SPA desenvolvida em React e TypeScript, otimizada para SEO. Interface fluida construída com Tailwind CSS, Radix UI, TanStack Query e animações customizadas de scroll."
 }

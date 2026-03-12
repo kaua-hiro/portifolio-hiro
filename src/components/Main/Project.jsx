@@ -12,16 +12,13 @@ import 'swiper/css';
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
-/* Img */
-const proyectImg = require.context('../../img', true);
-
 const Project = () => {
     return (
         <section className="proyectos" id="proyectos">
             <h2 className="heading">
                 <FormattedMessage
                     id='projects'
-                    defaultMessage='Projects'
+                    defaultMessage='Projetos'
                 />
             </h2>
             <div className="proyect-site" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -30,270 +27,179 @@ const Project = () => {
                     loop={true}
                     grabCursor={true}
                     centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
+                    autoplay={{ delay: 2500, disableOnInteraction: false }}
+                    pagination={{ clickable: true }}
                     modules={[Pagination, Autoplay]}
                     breakpoints={{
-                        0: {
-                            slidesPerView: 1,
-                        },
-                        768: {
-                            slidesPerView: 2,
-                        },
-                        1024: {
-                            slidesPerView: 3,
-                        },
+                        0: { slidesPerView: 1 },
+                        768: { slidesPerView: 2 },
+                        1024: { slidesPerView: 3 },
                     }}
                     className='proyectos-slider mySwiper'
                 >
+                    {/* PROJETO 1 */}
                     <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-app-18.png`)}
-                            alt='proyectos'
-
-                        />
+                        <img src={require('../../img/projeto-19.png')} alt='Dashboard Nexus' />
                         <div className="content">
-                            <h3>CoinPlus</h3>
-                            <p>
-                                Trading platform for cryptocurrencies
-                            </p>
+                            <h3>Dashboard Nexus</h3>
+                            <p>SaaS Multi-tenant</p>
                             <p className="tecnologias">
-                                React
-                                <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> Bootstrap
-                                <span> -</span> TypeScript
-                                <span> -</span> Solidity
-                                <span> -</span> NodeJS
-                                <span> -</span> MongoDB
+                                Next.js <span> -</span> TypeScript <span> -</span> Prisma
                             </p>
-                            <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-14.jpg`)}
-                            alt='proyectos'
 
-                        />
+                    {/* PROJETO 2 */}
+                    <SwiperSlide className='caja'>
+                        <img src={require('../../img/projeto-23.png')}
+                         alt='TechTeamIA' />
                         <div className="content">
-                            <h3>Justice</h3>
-                            <p>
-                                lawyers website
-                            </p>
+                            <h3>TechTeamIA</h3>
+                            <p>Agente de Suporte</p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> jQuery
-                                <span> -</span> Bootstrap
+                                Copilot Studio <span> -</span> IA Generativa <span> -</span> PowerAutomate
                             </p>
-                            <a href="https://Kaua_Mizumoto.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-app-17.png`)}
-                            alt='proyectos'
 
+                    {/* PROJETO 3 
+                    <SwiperSlide className='caja'>
+                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Automacao+NFe" alt="Automação NFe" />
+                        <div className="content">
+                            <h3>Automação NFe</h3>
+                            <p>Integração de Dados Fiscais</p>
+                            <p className="tecnologias">
+                                Python <span> -</span> SQL Server <span> -</span> Integração ERP
+                            </p>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide> */}
+
+                    {/* PROJETO 4 (FLOW REMINDER) 
+                    <SwiperSlide className='caja'>
+                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Flow+Reminder+API" alt="Flow-Reminder API" />
+                        <div className="content">
+                            <h3>Flow-Reminder API</h3>
+                            <p>Mensageria & WhatsApp</p>
+                            <p className="tecnologias">
+                                TypeScript <span> -</span> Node.js <span> -</span> WhatsApp API
+                            </p>
+                            <a href="https://github.com/kaua-hiro/flow-reminder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide> */}
+
+                    {/* PROJETO 5 (CRYPTO EXCHANGE) 
+                    <SwiperSlide className='caja'>
+                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Crypto+Exchange" alt="Crypto Exchange" />
+                        <div className="content">
+                            <h3>Crypto Exchange</h3>
+                            <p>Consumo de APIs Financeiras</p>
+                            <p className="tecnologias">
+                                React <span> -</span> JavaScript <span> -</span> REST APIs
+                            </p>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide> */}
+
+                    {/* PROJETO 6 */}
+                    <SwiperSlide className='caja'>
+                        <img src={require('../../img/projeto-22.png')}
+                         alt='Bot Dados Econômicos' />
+                        <div className="content">
+                            <h3>Bot Dados Econômicos</h3>
+                            <p>Webhooks & APIs</p>
+                            <p className="tecnologias">
+                                Python <span> -</span> API BCB <span> -</span> Webhook
+                            </p>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
+                    {/* PROJETO 7 POKEDEX */}
+                    <SwiperSlide className='caja'>
+                        <img 
+                            src={require('../../img/projeto-18.png')} 
+                            alt='Pokedex API' 
                         />
                         <div className="content">
-                            <h3>PI Dogs</h3>
-                            <p>
-                                Individual Project
-                            </p>
+                            <h3>Pokedex API</h3>
+                            <p>Consumo de APIs & Frontend</p>
                             <p className="tecnologias">
-                                React
-                                <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> NodeJS
-                                <span> -</span> ExpressJS
-                                <span> -</span> Sequelize
+                                JavaScript
+                                <span> -</span> Async/Await
+                                <span> -</span> REST API
+                            </p>
+                            <a href="https://kaua-hiro.github.io/API_Pokedex/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/API_Pokedex" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
+                    {/* PROJETO 8 (BARBERLAB SAAS) 
+                    <SwiperSlide className='caja'>
+                        <img 
+                            src={require('../../img/projeto-18.png')} 
+                            alt='BarberLab SaaS' 
+                        />
+                        <div className="content">
+                            <h3>BarberLab</h3>
+                            <p>SaaS de Agendamento Full-Stack</p>
+                            <p className="tecnologias">
+                                Next.js
+                                <span> -</span> Prisma
                                 <span> -</span> PostgreSQL
                             </p>
-                            <a href="https://pi-dogs-main-ashy.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/PI-DOGS-MAIN" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
+
+                    {/* PROJETO 9 (STUDIO LELEKS) */}
                     <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-7.jpg`)}
-                            alt='proyectos'
+                        <img 
+                            src={require('../../img/projeto-21.png')} 
+                            alt='Studio Leleks' 
                         />
                         <div className="content">
-                            <h3>Power Engine</h3>
-                            <p>
-                                Automobiles Website
-                            </p>
+                            <h3>Studio Leleks</h3>
+                            <p>Landing Page Premium</p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
+                                React
+                                <span> -</span> TypeScript
+                                <span> -</span> Tailwind CSS
                             </p>
-                            <a href="https://Kaua_Mizumoto.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/Power-Engine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
+
+                    {/* PROJETO 10 (STUDIO LILIAM) */}
                     <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-6.jpg`)}
-                            alt='proyectos'
+                        <img 
+                            src={require('../../img/projeto-20.png')} 
+                            alt='Studio Liliam' 
                         />
                         <div className="content">
-                            <h3>Spider-Man fan page</h3>
-                            <p>
-                                Fan page Spider-Man
-                            </p>
+                            <h3>Studio Liliam</h3>
+                            <p>Landing Page de Conversão</p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
+                                React
+                                <span> -</span> TypeScript
+                                <span> -</span> Radix UI
                             </p>
-                            <a href="https://Kaua_Mizumoto.github.io/Spider-Man/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/Spider-Man" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-12.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>EveryRunnig</h3>
-                            <p>
-                                Website shoes
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/EveryRunning/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/EveryRunning" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-5.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Premier Food</h3>
-                            <p>
-                                Fast food
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Sass
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-8.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>ShopTec</h3>
-                            <p>
-                                Ecommerce
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> Sass
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/shop-tec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/shop-tec" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-10.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Elegant Hand</h3>
-                            <p>
-                                Watch Shop
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/ElegantHand/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/ElegantHand" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-9.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Vida en papel</h3>
-                            <p>
-                                Bookstore
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/vida-en-papel/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/vida-en-papel" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-11.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Plus Anime</h3>
-                            <p>
-                                Anime website
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Kaua_Mizumoto.github.io/PlusAnime/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Kaua_Mizumoto/PlusAnime" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
+
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
-            {/* <Link className="custom-btn btn-codigo portafolio-btn" to="/project">
-                <FormattedMessage
-                    id='btn-more-projects'
-                    defaultMessage='More projects'
-                />
-            </Link> */}
+            
             <div className='portafolio-btn'>
                 <Link to="/project">
                     <ButtomGet/>
                 </Link>
             </div>
         </section>
-
     )
 };
 export default React.memo(Project);
