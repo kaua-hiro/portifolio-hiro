@@ -86,7 +86,7 @@ const Contact = () => (
                     telegram
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/kaua-mizumoto/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://www.linkedin.com/in/kauamizumoto/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>

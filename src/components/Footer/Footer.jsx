@@ -22,7 +22,7 @@ const Footer = () =>{
                     <p>&copy; {fecha}. All Rights Reserved.</p>
                 </div>
                 <div className="redes-sociales">
-                    <a href="https://www.linkedin.com/in/kaua-mizumoto/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/kauamizumoto/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/kaua-hiro/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/hirosemh/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=5511968389983" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>

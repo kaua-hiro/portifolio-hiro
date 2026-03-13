@@ -35,13 +35,13 @@ const Content = () => (
                 </p>
 
                 <div className="redes-sociales">
-                    <a href="https://www.linkedin.com/in/kaua-mizumoto/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/kauamizumoto/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/kaua-hiro/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/hirosemh/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600"><i className="fab fa-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=5511968389983" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
                 </div>
                 <div className="wrapper">
-                    <a className="button" href="https://www.linkedin.com/in/kaua-mizumoto/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
+                    <a className="button" href="https://www.linkedin.com/in/kauamizumoto/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
                         <div className="icon">
                             <i className="fab fa-linkedin"></i>
                         </div>
