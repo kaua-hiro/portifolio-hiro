@@ -46,6 +46,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 Next.js <span> -</span> TypeScript <span> -</span> Prisma
                             </p>
+                            <a href="https://kaua-hiro.github.io/nexus-admin-react/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
@@ -136,10 +137,10 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
-                    {/* PROJETO 8 (BARBERLAB SAAS) 
+                    {/* PROJETO 8 (BARBERLAB SAAS)*/}
                     <SwiperSlide className='caja'>
                         <img 
-                            src={require('../../img/projeto-18.png')} 
+                            src={require('../../img/projeto-24.png')} 
                             alt='BarberLab SaaS' 
                         />
                         <div className="content">
@@ -152,7 +153,7 @@ const Project = () => {
                             </p>
                             <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide> 
 
                     {/* PROJETO 9 (STUDIO LELEKS) */}
                     <SwiperSlide className='caja'>
@@ -171,6 +172,20 @@ const Project = () => {
                             <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
+
+                    {/* PROJETO 3 */}
+                    <SwiperSlide className='caja'>
+                        <img src={require('../../img/projeto-25.png')} alt="Onboarding Flow" />
+                        <div className="content">
+                            <h3>Onboarding Flow</h3>
+                            <p>Onboarding Colaborador Corporativo</p>
+                            <p className="tecnologias">
+                                Python <span> -</span> FastAPI <span> -</span> SQLite
+                            </p>
+                            <a href="https://onboardflow-api-nqe1.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/onboardflow-api" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide> 
 
                     {/* PROJETO 10 (STUDIO LILIAM) */}
                     <SwiperSlide className='caja'>
@@ -194,11 +209,13 @@ const Project = () => {
                 <div className="swiper-pagination"></div>
             </div>
             
+            {/* BOTÃO "SAIBA MAIS" EM STANDBY 
             <div className='portafolio-btn'>
                 <Link to="/project">
                     <ButtomGet/>
                 </Link>
             </div>
+            */}
         </section>
     )
 };
