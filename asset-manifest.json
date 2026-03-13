@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio-hiro/static/css/main.71395348.css",
-    "main.js": "/portifolio-hiro/static/js/main.83252bc8.js",
+    "main.js": "/portifolio-hiro/static/js/main.f5696970.js",
     "static/js/787.0606638d.chunk.js": "/portifolio-hiro/static/js/787.0606638d.chunk.js",
     "static/media/Thumbs.db": "/portifolio-hiro/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-app-17-com.png": "/portifolio-hiro/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
@@ -9,6 +9,7 @@
     "static/media/projeto-18.png": "/portifolio-hiro/static/media/projeto-18.f6cd4eabd2b3ee7d113e.png",
     "static/media/projeto-21.png": "/portifolio-hiro/static/media/projeto-21.46383efa96bb76c57d0f.png",
     "static/media/inicio.png": "/portifolio-hiro/static/media/inicio.9e191e0f2820064e6d28.png",
+    "static/media/projeto-24.png": "/portifolio-hiro/static/media/projeto-24.0671418da2350b05a51c.png",
     "static/media/projeto-18-com.png": "/portifolio-hiro/static/media/projeto-18-com.6517f26dbe92c881892c.png",
     "static/media/proyecto-17-com.png": "/portifolio-hiro/static/media/proyecto-17-com.2bc063c32eca5ac09842.png",
     "static/media/cv.pdf": "/portifolio-hiro/static/media/cv.7d77d24d5abdf44cf5cf.pdf",
@@ -51,6 +52,7 @@
     "static/media/proyecto-14-com.png": "/portifolio-hiro/static/media/proyecto-14-com.275eef89b3aa2a07b6d8.png",
     "static/media/proyecto-12.jpg": "/portifolio-hiro/static/media/proyecto-12.f2c5b272b67af11b149e.jpg",
     "static/media/proyecto-8-com.png": "/portifolio-hiro/static/media/proyecto-8-com.4b5f81460f7e2540b77c.png",
+    "static/media/projeto-25.png": "/portifolio-hiro/static/media/projeto-25.304ba8868430a3eea609.png",
     "static/media/proyecto-app-6.jpg": "/portifolio-hiro/static/media/proyecto-app-6.984983f50491b5e9d362.jpg",
     "static/media/proyecto-app-10.jpg": "/portifolio-hiro/static/media/proyecto-app-10.0a9f28051ad1af41f9b4.jpg",
     "static/media/proyecto-app-5.jpg": "/portifolio-hiro/static/media/proyecto-app-5.613983f8dd394a3f0848.jpg",
@@ -68,11 +70,11 @@
     "static/media/proyecto-app-2.jpg": "/portifolio-hiro/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/portifolio-hiro/index.html",
     "main.71395348.css.map": "/portifolio-hiro/static/css/main.71395348.css.map",
-    "main.83252bc8.js.map": "/portifolio-hiro/static/js/main.83252bc8.js.map",
+    "main.f5696970.js.map": "/portifolio-hiro/static/js/main.f5696970.js.map",
     "787.0606638d.chunk.js.map": "/portifolio-hiro/static/js/787.0606638d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71395348.css",
-    "static/js/main.83252bc8.js"
+    "static/js/main.f5696970.js"
   ]
 }
