@@ -1,4 +1,4 @@
-/********************** Sobre Mi **********************/
+/********************** Sobre Mim **********************/
 .buttonDownload {
 	display: flex;
 	position: relative;
@@ -412,5 +412,14 @@ section .row .columns .skill img:hover {
 
     .icons a{
         margin: 5rem 2rem;
+    }
+}
+
+/* Força os ícones de Skills a ficarem coloridos e acesos no celular */
+@media (max-width: 768px) {
+    .icons-skils {
+        filter: none !important;       /* Remove o efeito preto e branco */
+        opacity: 1 !important;         /* Garante 100% de brilho */
+        filter: grayscale(0%) !important; /* Garante que não haverá tom de cinza */
     }
 }

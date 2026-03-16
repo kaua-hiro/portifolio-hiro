@@ -10,10 +10,10 @@
 
     "greeting": "Olá",
     "name": "Sou Kauã Hiro Mizumoto",
-    "rol": "Engenheiro de Software & IA",
+    "rol": "Desenvolvedor de Software & IA",
     
     "im": "Quem sou",
-    "description": "Meu nome é Kauã Hiro Mizumoto e atuo com Engenharia de Sistemas.",
+    "description": "Meu nome é Kauã Hiro Mizumoto e atuo com Desenvolvimento de Software.",
     "my-description": "Desenvolvimento focado em regras de negócio complexas, integrações de APIs e implementação de Inteligência Artificial para elevar operações corporativas.",
     "years": "Idade: ",
     "from": "Local: ",
@@ -46,7 +46,7 @@
     
     "about-info-1": "Sou Desenvolvedor de Software com foco em Backend, integrações de APIs e Inteligência Artificial. Minha principal motivação é utilizar a tecnologia para resolver gargalos de negócio: transformo processos manuais, caros e demorados em fluxos automatizados que reduzem custos operacionais (OPEX) e escalam a produtividade das equipes.",
     "about-info-2": "Minha base técnica consolida ferramentas como Python, SQL, JavaScript/React e FastAPI. No dia a dia corporativo, atuo na construção de arquiteturas de ponta a ponta. Minhas entregas recentes incluem: • Desenvolvimento de Agentes Autônomos de IA (Copilotos) para otimizar operações logísticas e democratizar o acesso a dados via linguagem natural. • Integração de sistemas via APIs com grandes marketplaces do varejo. • Implementação de IA Generativa aplicada a fluxos de E-commerce e Marketing.",
-    "about-info-3": "Sou apaixonado por produtizar a Inteligência Artificial. Para embasar essa visão, além de ser estudante de Desenvolvimento Multiplataforma (Fatec), possuo certificações estratégicas em AWS Generative AI, Google Gemini e Cloud Architects. Meu foco não é infraestrutura, mas sim a engenharia de sistemas e produto: construir código limpo, APIs robustas e integrações inteligentes que protegem a receita da empresa e devolvem tempo para a tomada de decisão.",
+    "about-info-3": "Sou apaixonado por produtizar a Inteligência Artificial. Para embasar essa visão, além de ser estudante de Desenvolvimento Multiplataforma (Fatec), possuo certificações estratégicas em AWS Generative AI, Google Gemini e Cloud Architects. Meu foco é o desenvolvimento de sistemas e produto: construir código limpo, APIs robustas e integrações inteligentes que protegem a receita da empresa e devolvem tempo para a tomada de decisão.",
     "btn-cv": "Baixar CV",
     
     "about-skills-1": "Python (FastAPI, Automações): Utilizado para engenharia de integrações e scripts de reconciliação de dados.",
