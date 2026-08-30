@@ -202,7 +202,8 @@ const Project = () => {
                                 <span> -</span> TypeScript
                                 <span> -</span> Radix UI
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://beautyflow-sistema-three.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/beautyflow-sistema" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
