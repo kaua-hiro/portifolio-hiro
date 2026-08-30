@@ -47,7 +47,7 @@ const Project = () => {
                                 Next.js <span> -</span> TypeScript <span> -</span> Prisma
                             </p>
                             <a href="https://kaua-hiro.github.io/nexus-admin-react/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro/nexus-admin-react" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
@@ -151,9 +151,9 @@ const Project = () => {
                                 <span> -</span> Prisma
                                 <span> -</span> PostgreSQL
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro/meu-saas-barbearia" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide> 
+                    </SwiperSlide>
 
                     {/* PROJETO 9 (STUDIO LELEKS) */}
                     <SwiperSlide className='caja'>
@@ -169,7 +169,8 @@ const Project = () => {
                                 <span> -</span> TypeScript
                                 <span> -</span> Tailwind CSS
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://lelek-style-builder.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/lelek-style-builder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
