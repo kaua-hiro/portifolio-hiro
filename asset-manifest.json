@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio-hiro/static/css/main.814e86e5.css",
-    "main.js": "/portifolio-hiro/static/js/main.abc22de2.js",
+    "main.css": "/portifolio-hiro/static/css/main.47ee680e.css",
+    "main.js": "/portifolio-hiro/static/js/main.ec309629.js",
     "static/js/787.0606638d.chunk.js": "/portifolio-hiro/static/js/787.0606638d.chunk.js",
     "static/media/Thumbs.db": "/portifolio-hiro/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-app-17-com.png": "/portifolio-hiro/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
@@ -69,12 +69,12 @@
     "static/media/proyecto-app-12.jpg": "/portifolio-hiro/static/media/proyecto-app-12.0d8495ab02ed11fe1640.jpg",
     "static/media/proyecto-app-2.jpg": "/portifolio-hiro/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/portifolio-hiro/index.html",
-    "main.814e86e5.css.map": "/portifolio-hiro/static/css/main.814e86e5.css.map",
-    "main.abc22de2.js.map": "/portifolio-hiro/static/js/main.abc22de2.js.map",
+    "main.47ee680e.css.map": "/portifolio-hiro/static/css/main.47ee680e.css.map",
+    "main.ec309629.js.map": "/portifolio-hiro/static/js/main.ec309629.js.map",
     "787.0606638d.chunk.js.map": "/portifolio-hiro/static/js/787.0606638d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.814e86e5.css",
-    "static/js/main.abc22de2.js"
+    "static/css/main.47ee680e.css",
+    "static/js/main.ec309629.js"
   ]
 }
