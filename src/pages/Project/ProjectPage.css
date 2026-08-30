@@ -9,30 +9,88 @@
   padding-bottom: 5rem;
 }
 
+/* Each project is a real, comparable card now — a visitor shouldn't
+   have to wait for autoplay to land on a slide before its title,
+   stack and links become readable. Note: `.caja` IS Swiper's own
+   `.swiper-slide` element, which Swiper positions via an inline
+   `transform: translate3d(...)`. Never set `transform` here — fighting
+   Swiper for that property causes runaway layout thrashing with
+   autoplay + loop mode. Opacity/box-shadow/border are safe. */
 .proyectos .proyectos-slider .caja {
+  position: relative;
   text-align: center;
   width: 30rem;
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, .08);
+  border-radius: 1.2rem;
+  padding: 1.4rem 1.4rem 2.2rem;
+  opacity: .85;
+  transition: opacity .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+
+.proyectos .proyectos-slider .caja:hover {
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, .12);
 }
 
 .proyectos .proyectos-slider .caja img {
   width: 100%;
-  opacity: 0.5;
-  transform: scale(0.8);
+  opacity: .9;
 }
 
 .proyectos .proyectos-slider .caja .content {
-  transform: scale(0);
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   text-transform: none !important;
+}
+
+.proyectos .proyectos-slider .swiper-slide-active.caja {
+  opacity: 1;
 }
 
 .proyectos .proyectos-slider .swiper-slide-active img {
   opacity: 1;
-  transform: scale(1);
 }
 
-.proyectos .proyectos-slider .swiper-slide-active .content {
-  transform: scale(1);
+/* Status readout — real signal (does this card link to something
+   live, or is it code-only?), not a decorative badge. */
+.project-status {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .4rem 1rem;
+  border-radius: 100px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: none;
+  background: rgba(255, 255, 255, .92);
+  color: var(--black);
+  backdrop-filter: blur(2px);
+}
+
+.project-status--private {
+  color: var(--light-color);
+}
+
+.project-status__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 3px rgba(0, 229, 254, .18);
+  flex-shrink: 0;
+}
+
+body.dark .project-status {
+  background: rgba(0, 0, 0, .55);
+  color: var(--white);
+}
+
+body.dark .project-status--private {
+  color: var(--light-color);
 }
 
 .proyectos .proyectos-slider .caja .content h3 {
@@ -53,12 +111,15 @@
   font-weight: bold;
 }
 
-.proyectos .proyectos-slider .caja .content a {
-  margin: 0.5rem;
-}
-
 .proyectos .proyectos-slider .caja .content .tecnologias {
   margin-bottom: 2rem;
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  letter-spacing: .01em;
+}
+
+.proyectos .proyectos-slider .caja .content a {
+  margin: 0.5rem;
 }
 
 .swiper-pagination-bullet-active {

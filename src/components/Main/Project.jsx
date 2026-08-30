@@ -27,7 +27,7 @@ const Project = () => {
                     loop={true}
                     grabCursor={true}
                     centeredSlides={true}
-                    autoplay={{ delay: 2500, disableOnInteraction: false }}
+                    autoplay={{ delay: 4200, disableOnInteraction: false, pauseOnMouseEnter: true }}
                     pagination={{ clickable: true }}
                     modules={[Pagination, Autoplay]}
                     breakpoints={{
@@ -39,6 +39,7 @@ const Project = () => {
                 >
                     {/* PROJETO 1 */}
                     <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
                         <img src={require('../../img/projeto-19.png')} alt='Dashboard Nexus' />
                         <div className="content">
                             <h3>Dashboard Nexus</h3>
@@ -53,6 +54,7 @@ const Project = () => {
 
                     {/* PROJETO 2 */}
                     <SwiperSlide className='caja'>
+                        <span className="project-status project-status--private">Projeto interno</span>
                         <img src={require('../../img/projeto-23.png')}
                          alt='TechTeamIA' />
                         <div className="content">
@@ -106,6 +108,7 @@ const Project = () => {
 
                     {/* PROJETO 6 */}
                     <SwiperSlide className='caja'>
+                        <span className="project-status project-status--private">Projeto interno</span>
                         <img src={require('../../img/projeto-22.png')}
                          alt='Bot Dados Econômicos' />
                         <div className="content">
@@ -120,9 +123,10 @@ const Project = () => {
 
                     {/* PROJETO 7 POKEDEX */}
                     <SwiperSlide className='caja'>
-                        <img 
-                            src={require('../../img/projeto-18.png')} 
-                            alt='Pokedex API' 
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-18.png')}
+                            alt='Pokedex API'
                         />
                         <div className="content">
                             <h3>Pokedex API</h3>
@@ -139,9 +143,10 @@ const Project = () => {
 
                     {/* PROJETO 8 (BARBERLAB SAAS)*/}
                     <SwiperSlide className='caja'>
-                        <img 
-                            src={require('../../img/projeto-24.png')} 
-                            alt='BarberLab SaaS' 
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-24.png')}
+                            alt='BarberLab SaaS'
                         />
                         <div className="content">
                             <h3>BarberLab</h3>
@@ -158,9 +163,10 @@ const Project = () => {
 
                     {/* PROJETO 9 (STUDIO LELEKS) */}
                     <SwiperSlide className='caja'>
-                        <img 
-                            src={require('../../img/projeto-21.png')} 
-                            alt='Studio Leleks' 
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-21.png')}
+                            alt='Studio Leleks'
                         />
                         <div className="content">
                             <h3>Studio Leleks</h3>
@@ -177,6 +183,7 @@ const Project = () => {
 
                     {/* PROJETO 3 */}
                     <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
                         <img src={require('../../img/projeto-25.png')} alt="Onboarding Flow" />
                         <div className="content">
                             <h3>Onboarding Flow</h3>
@@ -191,9 +198,10 @@ const Project = () => {
 
                     {/* PROJETO 10 (STUDIO LILIAM) */}
                     <SwiperSlide className='caja'>
-                        <img 
-                            src={require('../../img/projeto-20.png')} 
-                            alt='Studio Liliam' 
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-20.png')}
+                            alt='Studio Liliam'
                         />
                         <div className="content">
                             <h3>Studio Liliam</h3>

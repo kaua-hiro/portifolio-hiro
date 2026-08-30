@@ -95,6 +95,11 @@ body.dark .servicios .row h3 {
 
 /********************** Proyectos **********************/
 
+body.dark .proyectos .proyectos-slider .caja {
+  background: #111;
+  border-color: rgba(255, 255, 255, .1);
+}
+
 body.dark .proyectos .proyectos-slider .caja .content h3 {
   color: var(--white);
 }
