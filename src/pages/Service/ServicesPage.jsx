@@ -4,7 +4,6 @@ import './ServicesPage.css'
 /* Componet */
 import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
-import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import Accordion from './Accordion'
 
@@ -16,8 +15,6 @@ const Services = () => {
     <div>
 
       <HeaderPage />
-
-      <ParticleBackground />
 
       <main className="service-page">
         <section className="servicios" id="servicios">

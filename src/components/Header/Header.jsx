@@ -71,8 +71,8 @@ const Header = () => {
                     />
                 </Link>
                 <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nationalflag.io/4x3/us.svg" alt="EEUU" style={{ width: '30px', cursor: 'pointer' }} />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nationalflag.io/4x3/br.svg" alt="Brasil" style={{ width: '30px', cursor: 'pointer' }} />
+                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nationalflag.io/4x3/us.svg" alt="English" style={{ width: '30px', cursor: 'pointer' }} />
+                    <img onClick={() => idioma.selectLanguage('pt-BR')} src="https://nationalflag.io/4x3/br.svg" alt="Português" style={{ width: '30px', cursor: 'pointer' }} />
                 </div>
             </nav>
             <div className="switch" id="switch">

@@ -31,73 +31,47 @@ export default function ParticleHeaderBg() {
             className="particles-2-css"
             options={{
                 background: {
-                    position: "50% 50%",
-                    repeat: "no-repeat",
-                    size: "cover",
-                    color: "#000"
+                    color: "transparent"
                 },
                 fullScreen: {
                     enable: false
                 },
                 interactivity: {
-                    modes: {
-                        bubble: {
-                            distance: 400,
-                            duration: 2,
-                            opacity: 0.8,
-                            size: 10,
-                            divs: { distance: 200, duration: 0.4, mix: false, selectors: [] },
-                        },
-                        grab: { distance: 400 },
-                        repulse: {
-                            divs: { distance: 200, duration: 0.4, factor: 100, speed: 1, maxSpeed: 50, easing: "ease-out-quad", selectors: [] },
-                        },
+                    events: {
+                        onHover: { enable: false },
+                        onClick: { enable: false },
                     },
                 },
                 particles: {
                     color: { value: "#ffffff" },
-                    links: { color: { value: "#000" }, distance: 150, opacity: 0.4 },
+                    links: { enable: false },
                     move: {
-                        attract: { rotate: { x: 600, y: 1200 } },
                         enable: true,
-                        outModes: { bottom: "out", left: "out", right: "out", top: "out" },
+                        speed: 0.6,
+                        direction: "none",
+                        random: true,
+                        straight: false,
+                        outModes: { default: "out" },
                     },
-                    number: { density: { enable: true }, value: 24 },
+                    number: { density: { enable: true, area: 900 }, value: 12 },
                     opacity: {
-                        random: { enable: true },
-                        value: { min: 0.1, max: 1 },
-                        animation: { enable: true, speed: 1, minimumValue: 0.2 },
+                        value: { min: 0.12, max: 0.3 },
+                        animation: { enable: true, speed: 0.3, minimumValue: 0.12, sync: false },
                     },
                     rotate: {
                         random: { enable: true },
-                        animation: { enable: true, speed: 5 },
+                        animation: { enable: true, speed: 2 },
                         direction: "random",
                     },
                     shape: {
                         options: {
-                            character: { fill: false, font: "Verdana", style: "", value: "*", weight: "400" },
-                            char: { fill: false, font: "Verdana", style: "", value: "*", weight: "400" },
-                            polygon: { sides: 5 },
-                            star: { sides: 5 },
                             image: techIcons,
                             images: techIcons,
                         },
                         type: "image",
                     },
                     size: {
-                        value: 50,
-                        animation: { speed: 40, minimumValue: 0.1 },
-                    },
-                    stroke: {
-                        width: "100px",
-                        color: {
-                            value: "#000000",
-                            animation: {
-                                h: { count: 0, enable: false, offset: 0, speed: 1, decay: 0, sync: true },
-                                s: { count: 0, enable: false, offset: 0, speed: 1, decay: 0, sync: true },
-                                l: { count: 0, enable: false, offset: 0, speed: 1, decay: 0, sync: true },
-                            },
-                        },
+                        value: { min: 12, max: 22 },
                     },
                 },
             }}

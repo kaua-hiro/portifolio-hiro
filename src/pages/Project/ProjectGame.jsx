@@ -10,7 +10,6 @@ import { NavLink } from 'react-router-dom';
 /* Componet */
 import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
-import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 /* Multi idioma */
@@ -30,8 +29,6 @@ const ProjectGame = () => {
         <div>
 
             <HeaderPage />
-
-            <ParticleBackground />
 
             <main>
                 <section className="proyectos mas-proyect" id="proyectos">

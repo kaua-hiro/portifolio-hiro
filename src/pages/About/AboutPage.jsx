@@ -4,7 +4,6 @@ import './AboutPage.css'
 /* Componet */
 import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
-import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import cv from '../../cv/cv.pdf';
 
@@ -33,8 +32,6 @@ const About = () => {
     <div>
 
       <HeaderPage />
-
-      <ParticleBackground />
 
       <main>
         <section className="sobre-mi-seccion" id="sobre-mi">

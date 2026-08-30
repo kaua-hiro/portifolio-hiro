@@ -19,14 +19,14 @@ const Service = () => (
                 <i className="fas fa-code"></i>
                 <h3>
                     <FormattedMessage
-                        id='optimization'
-                        defaultMessage='IA Estratégica para Negócios'
+                        id='design'
+                        defaultMessage='Engenharia de Software'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='optimization-info'
-                        defaultMessage='Planejamento e implementação de roteiros de Inteligência Artificial corporativa para alavancar a produtividade e os resultados do negócio.'
+                        id='design-info'
+                        defaultMessage='Desenvolvimento full-stack de plataformas escaláveis e sistemas corporativos robustos utilizando Python, React e arquiteturas modernas.'
                     />
                 </p>
             </div>
