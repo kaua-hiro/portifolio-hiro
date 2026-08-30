@@ -151,6 +151,7 @@ const Project = () => {
                                 <span> -</span> Prisma
                                 <span> -</span> PostgreSQL
                             </p>
+                            <a href="https://meu-saas-barbearia-dun.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/kaua-hiro/meu-saas-barbearia" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
