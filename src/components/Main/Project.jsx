@@ -191,7 +191,7 @@ const Project = () => {
                             <p className="tecnologias">
                                 Python <span> -</span> FastAPI <span> -</span> SQLite
                             </p>
-                            <a href="https://onboardflow-api-nqe1.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://onboardflow-api.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/kaua-hiro/onboardflow-api" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide> 
