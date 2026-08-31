@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portifolio-hiro/static/css/main.47ee680e.css",
-    "main.js": "/portifolio-hiro/static/js/main.af4b6a63.js",
+    "main.js": "/portifolio-hiro/static/js/main.c31acd05.js",
     "static/js/787.0606638d.chunk.js": "/portifolio-hiro/static/js/787.0606638d.chunk.js",
+    "static/media/projeto-24.png": "/portifolio-hiro/static/media/projeto-24.595268c930d055428314.png",
     "static/media/Thumbs.db": "/portifolio-hiro/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-app-17-com.png": "/portifolio-hiro/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
     "static/media/proyecto-app-17.png": "/portifolio-hiro/static/media/proyecto-app-17.1fdc99f421c0d630d405.png",
@@ -21,7 +22,6 @@
     "static/media/projeto-18.png": "/portifolio-hiro/static/media/projeto-18.bee436a634ad542c8222.png",
     "static/media/proyecto-11-com.png": "/portifolio-hiro/static/media/proyecto-11-com.f62a13d09a93136aaab3.png",
     "static/media/projeto-27.png": "/portifolio-hiro/static/media/projeto-27.3a7068464ec5c4e803dc.png",
-    "static/media/projeto-24.png": "/portifolio-hiro/static/media/projeto-24.5a59213c65e63059bada.png",
     "static/media/proyecto-6-com.png": "/portifolio-hiro/static/media/proyecto-6-com.793e6636e20b75e30b41.png",
     "static/media/projeto-20-com.png": "/portifolio-hiro/static/media/projeto-20-com.6acec7d874362a1410cc.png",
     "static/media/proyecto-13-com.png": "/portifolio-hiro/static/media/proyecto-13-com.798c1312c93abea278de.png",
@@ -73,11 +73,11 @@
     "static/media/proyecto-app-2.jpg": "/portifolio-hiro/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/portifolio-hiro/index.html",
     "main.47ee680e.css.map": "/portifolio-hiro/static/css/main.47ee680e.css.map",
-    "main.af4b6a63.js.map": "/portifolio-hiro/static/js/main.af4b6a63.js.map",
+    "main.c31acd05.js.map": "/portifolio-hiro/static/js/main.c31acd05.js.map",
     "787.0606638d.chunk.js.map": "/portifolio-hiro/static/js/787.0606638d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47ee680e.css",
-    "static/js/main.af4b6a63.js"
+    "static/js/main.c31acd05.js"
   ]
 }
