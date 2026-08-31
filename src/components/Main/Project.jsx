@@ -216,6 +216,46 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
+                    {/* PROJETO 11 (VERNIZ ATELIER) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-26.png')}
+                            alt='Verniz Atelier'
+                        />
+                        <div className="content">
+                            <h3>Verniz Atelier</h3>
+                            <p>Landing Page de Nail Design</p>
+                            <p className="tecnologias">
+                                HTML
+                                <span> -</span> CSS
+                                <span> -</span> JavaScript
+                            </p>
+                            <a href="https://nail-designer-landing-orpin.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/nail-designer-landing" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
+                    {/* PROJETO 12 (FOCINHO FELIZ PET SHOP) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-27.png')}
+                            alt='Focinho Feliz Pet Shop'
+                        />
+                        <div className="content">
+                            <h3>Focinho Feliz</h3>
+                            <p>Landing Page de Pet Shop &amp; Day Care</p>
+                            <p className="tecnologias">
+                                HTML
+                                <span> -</span> CSS
+                                <span> -</span> JavaScript
+                            </p>
+                            <a href="https://petshop-focinho-feliz.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/petshop-focinho-feliz" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
