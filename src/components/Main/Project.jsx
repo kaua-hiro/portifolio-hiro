@@ -256,6 +256,26 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
+                    {/* PROJETO 13 (LEDGER - GESTAO FINANCEIRA) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-28.png')}
+                            alt='Ledger - Gestão Financeira'
+                        />
+                        <div className="content">
+                            <h3>Ledger</h3>
+                            <p>Gestão Financeira Profissional</p>
+                            <p className="tecnologias">
+                                React
+                                <span> -</span> Vite
+                                <span> -</span> React Router
+                            </p>
+                            <a href="https://finops-ledger-opal.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/finops-ledger" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
