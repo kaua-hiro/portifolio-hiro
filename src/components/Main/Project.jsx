@@ -184,17 +184,17 @@ const Project = () => {
                     {/* PROJETO 3 */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img src={require('../../img/projeto-25.png')} alt="Onboarding Flow" />
+                        <img src={require('../../img/projeto-25.png')} alt="Andrade & Lima Advocacia" />
                         <div className="content">
-                            <h3>Onboarding Flow</h3>
-                            <p>Onboarding Colaborador Corporativo</p>
+                            <h3>Andrade & Lima Advocacia</h3>
+                            <p>Landing Page Institucional</p>
                             <p className="tecnologias">
-                                Python <span> -</span> FastAPI <span> -</span> SQLite
+                                HTML5 <span> -</span> CSS3 <span> -</span> JavaScript
                             </p>
-                            <a href="https://onboardflow-api.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/onboardflow-api" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://andrade-lima-advocacia.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/sites-nichos-demo" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide> 
+                    </SwiperSlide>
 
                     {/* PROJETO 10 (STUDIO LILIAM) */}
                     <SwiperSlide className='caja'>
