@@ -276,6 +276,26 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
+                    {/* PROJETO 14 (ESTUDIO VERTICE) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-29.png')}
+                            alt='Estúdio Vértice'
+                        />
+                        <div className="content">
+                            <h3>Estúdio Vértice</h3>
+                            <p>Landing Page de Agência de Design</p>
+                            <p className="tecnologias">
+                                Next.js
+                                <span> -</span> TypeScript
+                                <span> -</span> Framer Motion
+                            </p>
+                            <a href="https://estudio-vertice-lyart.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/estudio-vertice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
