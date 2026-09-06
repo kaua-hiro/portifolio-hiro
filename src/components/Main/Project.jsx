@@ -296,6 +296,26 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
+                    {/* PROJETO 15 (ARANHA-VERSO HUB) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-30.png')}
+                            alt='Aranha-Verso Hub'
+                        />
+                        <div className="content">
+                            <h3>Aranha-Verso Hub</h3>
+                            <p>Tributo Interativo em Quadrinhos</p>
+                            <p className="tecnologias">
+                                HTML5
+                                <span> -</span> CSS3
+                                <span> -</span> JavaScript
+                            </p>
+                            <a href="https://spider-verse-hub.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/spider-verse-hub" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
