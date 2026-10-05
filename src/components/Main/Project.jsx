@@ -37,18 +37,18 @@ const Project = () => {
                     }}
                     className='proyectos-slider mySwiper'
                 >
-                    {/* PROJETO 1 */}
+                    {/* PROJETO 1 (STUDIO ARQUITETURA) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img src={require('../../img/projeto-19.png')} alt='Dashboard Nexus' />
+                        <img src={require('../../img/projeto-33.png')} alt='Studio Arquitetura' />
                         <div className="content">
-                            <h3>Dashboard Nexus</h3>
-                            <p>SaaS Multi-tenant</p>
+                            <h3>Studio Arquitetura</h3>
+                            <p>Landing Page de Arquitetura &amp; Interiores</p>
                             <p className="tecnologias">
-                                Next.js <span> -</span> TypeScript <span> -</span> Prisma
+                                HTML5 <span> -</span> CSS3 <span> -</span> JavaScript
                             </p>
-                            <a href="https://kaua-hiro.github.io/nexus-admin-react/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/nexus-admin-react" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://hmarquiteturaprojeto.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
@@ -161,78 +161,23 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
-                    {/* PROJETO 9 (STUDIO LELEKS) */}
-                    <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-21.png')}
-                            alt='Studio Leleks'
-                        />
-                        <div className="content">
-                            <h3>Studio Leleks</h3>
-                            <p>Landing Page Premium</p>
-                            <p className="tecnologias">
-                                React
-                                <span> -</span> TypeScript
-                                <span> -</span> Tailwind CSS
-                            </p>
-                            <a href="https://lelek-style-builder.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/lelek-style-builder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* PROJETO 3 */}
-                    <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img src={require('../../img/projeto-25.png')} alt="Andrade & Lima Advocacia" />
-                        <div className="content">
-                            <h3>Andrade & Lima Advocacia</h3>
-                            <p>Landing Page Institucional</p>
-                            <p className="tecnologias">
-                                HTML5 <span> -</span> CSS3 <span> -</span> JavaScript
-                            </p>
-                            <a href="https://andrade-lima-advocacia.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/sites-nichos-demo" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* PROJETO 10 (STUDIO LILIAM) */}
-                    <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-20.png')}
-                            alt='Studio Liliam'
-                        />
-                        <div className="content">
-                            <h3>Studio Liliam</h3>
-                            <p>Landing Page de Conversão</p>
-                            <p className="tecnologias">
-                                React
-                                <span> -</span> TypeScript
-                                <span> -</span> Radix UI
-                            </p>
-                            <a href="https://beautyflow-sistema-three.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/beautyflow-sistema" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-
                     {/* PROJETO 11 (VERNIZ ATELIER) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
                         <img
-                            src={require('../../img/projeto-26.png')}
+                            src={require('../../img/projeto-34.png')}
                             alt='Verniz Atelier'
                         />
                         <div className="content">
                             <h3>Verniz Atelier</h3>
-                            <p>Landing Page de Nail Design</p>
+                            <p>Landing Page de Salão de Beleza</p>
                             <p className="tecnologias">
                                 HTML
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                             </p>
-                            <a href="https://nail-designer-landing-orpin.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/nail-designer-landing" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://vernizatelier.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/labella-landing" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
@@ -276,23 +221,23 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
-                    {/* PROJETO 14 (ESTUDIO VERTICE) */}
+                    {/* PROJETO 14 (TELA DE LOGIN) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
                         <img
-                            src={require('../../img/projeto-29.png')}
-                            alt='Estúdio Vértice'
+                            src={require('../../img/projeto-35.png')}
+                            alt='Tela de Login'
                         />
                         <div className="content">
-                            <h3>Estúdio Vértice</h3>
-                            <p>Landing Page de Agência de Design</p>
+                            <h3>Tela de Login</h3>
+                            <p>Interface de Autenticação</p>
                             <p className="tecnologias">
                                 Next.js
                                 <span> -</span> TypeScript
-                                <span> -</span> Framer Motion
+                                <span> -</span> React
                             </p>
-                            <a href="https://estudio-vertice-lyart.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/estudio-vertice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://tela-de-login-portfolio.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/Tela-20de-20Login" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
 
