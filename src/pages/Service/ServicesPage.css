@@ -4,8 +4,11 @@
 
 /********************** Servicios **********************/
 
+/* Fixo em 3 colunas: o auto-fit global cabe 4 em telas largas e deixa
+   a segunda fileira dos 6 cards pela metade. */
 .servicios .row{
     text-align: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .servicios .row .columns{
@@ -189,7 +192,17 @@
 
 /********************** Media Q **********************/
 
+@media (max-width: 990px) {
+    .servicios .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 760px) {
+    .servicios .row{
+        grid-template-columns: 1fr;
+    }
+
     .site-services .row{
         grid-template-columns: 90%;
     }
