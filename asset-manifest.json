@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portifolio-hiro/static/css/main.47ee680e.css",
+    "main.css": "/portifolio-hiro/static/css/main.ad5b71be.css",
     "main.js": "/portifolio-hiro/static/js/main.cd2223fd.js",
     "static/js/787.0606638d.chunk.js": "/portifolio-hiro/static/js/787.0606638d.chunk.js",
     "static/media/projeto-30.png": "/portifolio-hiro/static/media/projeto-30.bc35ed2d088023e17d8b.png",
@@ -16,12 +16,12 @@
     "static/media/projeto-23.png": "/portifolio-hiro/static/media/projeto-23.f414d8d3f9334922cc02.png",
     "static/media/projeto-35.png": "/portifolio-hiro/static/media/projeto-35.dd761ff4e139daa79466.png",
     "index.html": "/portifolio-hiro/index.html",
-    "main.47ee680e.css.map": "/portifolio-hiro/static/css/main.47ee680e.css.map",
+    "main.ad5b71be.css.map": "/portifolio-hiro/static/css/main.ad5b71be.css.map",
     "main.cd2223fd.js.map": "/portifolio-hiro/static/js/main.cd2223fd.js.map",
     "787.0606638d.chunk.js.map": "/portifolio-hiro/static/js/787.0606638d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ee680e.css",
+    "static/css/main.ad5b71be.css",
     "static/js/main.cd2223fd.js"
   ]
 }
