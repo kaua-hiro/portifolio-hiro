@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../pages/Project/ProjectPage.css'
-import { Link } from 'react-router-dom';
-import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -264,14 +262,6 @@ const Project = () => {
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
-            
-            {/* BOTÃO "SAIBA MAIS" EM STANDBY 
-            <div className='portafolio-btn'>
-                <Link to="/project">
-                    <ButtomGet/>
-                </Link>
-            </div>
-            */}
         </section>
     )
 };
