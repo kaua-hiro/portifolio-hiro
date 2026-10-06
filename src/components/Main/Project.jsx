@@ -35,6 +35,26 @@ const Project = () => {
                     }}
                     className='proyectos-slider mySwiper'
                 >
+                    {/* PROJETO 16 (PAINEL ECONOMICO + CHAT) */}
+                    <SwiperSlide className='caja'>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <img
+                            src={require('../../img/projeto-36.png')}
+                            alt='Painel Econômico & Chat em Tempo Real'
+                        />
+                        <div className="content">
+                            <h3>Painel Econômico &amp; Chat</h3>
+                            <p>Indicadores do BCB &amp; Tempo Real</p>
+                            <p className="tecnologias">
+                                Next.js
+                                <span> -</span> TypeScript
+                                <span> -</span> Socket.IO
+                            </p>
+                            <a href="https://painel-economico-chat.onrender.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/kaua-hiro/painel-economico-chat" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+
                     {/* PROJETO 1 (STUDIO ARQUITETURA) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
