@@ -18,8 +18,10 @@ export default function RouteSeo() {
     const { pathname } = useLocation()
 
     useEffect(() => {
-        const page = pages[pathname] || pages['/']
-        const url = `${SITE_URL}${pathname === '/' ? '/' : pathname}`
+        // GitHub Pages serve /about/ (com barra); normaliza para a chave do pages.json
+        const route = pathname.length > 1 ? pathname.replace(/\/$/, '') : pathname
+        const page = pages[route] || pages['/']
+        const url = `${SITE_URL}${route === '/' ? '/' : `${route}/`}`
 
         document.title = page.title
         setMeta('meta[name="description"]', 'content', page.description)

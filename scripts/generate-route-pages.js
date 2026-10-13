@@ -15,7 +15,7 @@ const template = fs.readFileSync(path.join(buildDir, 'index.html'), 'utf8')
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;')
 
 function render(route, { title, description }) {
-    const url = `${SITE_URL}${route === '/' ? '/' : route}`
+    const url = `${SITE_URL}${route === '/' ? '/' : `${route}/`}`
     const t = escapeHtml(title)
     const d = escapeHtml(description)
     return template
