@@ -12,6 +12,7 @@ import Services from "./pages/Service/ServicesPage";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
 import SpiralLoader from "./components/SpiralLoader/SpiralLoader"
+import RouteSeo from "./seo/RouteSeo"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     return (
         <>
             <RouterScrollTop />
+            <RouteSeo />
             {
                 loading ?
 

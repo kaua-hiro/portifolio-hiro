@@ -1,0 +1,14 @@
+{
+  "/": {
+    "title": "Kauã Hiro Mizumoto | Desenvolvedor de Software, APIs, Automações e IA",
+    "description": "Portfólio de Kauã Hiro Mizumoto — desenvolvedor de software focado em sistemas, integrações de APIs, automações e inteligência artificial. Projetos em Node.js, TypeScript, Next.js, Prisma, PostgreSQL e Python."
+  },
+  "/about": {
+    "title": "Sobre Kauã Hiro Mizumoto | Skills, Experiência e Currículo",
+    "description": "Conheça a trajetória de Kauã Hiro Mizumoto: formação em Desenvolvimento de Software Multiplataforma na Fatec, experiência em suporte de TI, compliance, automação e as tecnologias que domina."
+  },
+  "/service": {
+    "title": "Especialidades | Kauã Hiro Mizumoto — APIs, Automação, Sistemas Web e IA",
+    "description": "Serviços e especialidades de Kauã Hiro Mizumoto: integração de APIs, automação de processos e conciliação de dados, sistemas web com Next.js e soluções de inteligência artificial com RAG."
+  }
+}
