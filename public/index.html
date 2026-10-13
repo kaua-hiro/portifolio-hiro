@@ -99,6 +99,17 @@
         duration: 700,
         once: true,
       });
+      // A altura da página muda depois do AOS.init (React, imagens lazy, fontes,
+      // carrossel). Sem recalcular, seções do fim (ex.: Contato) nunca apareciam.
+      (function () {
+        var timer;
+        var refresh = function () {
+          clearTimeout(timer);
+          timer = setTimeout(function () { AOS.refresh(); }, 150);
+        };
+        if ('ResizeObserver' in window) new ResizeObserver(refresh).observe(document.body);
+        window.addEventListener('load', refresh);
+      })();
     </script>
   </body>
 </html>

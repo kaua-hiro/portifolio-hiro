@@ -53,7 +53,8 @@
     border-radius: 5px;
     transition: all 0.3s;
 }
-.icons a .layer span.fab{
+.icons a .layer span.fab,
+.icons a .layer span.fas{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,16 +97,11 @@
 }
 .icons a:nth-child(4) .layer span,
 .icons a:nth-child(4) .text{
-    color: #1DA1F2;
-    border-color: #1DA1F2;
-}
-.icons a:nth-child(5) .layer span,
-.icons a:nth-child(5) .text{
     color: #2867B2;
     border-color: #2867B2;
 }
-.icons a:nth-child(6) .layer span,
-.icons a:nth-child(6) .text{
+.icons a:nth-child(5) .layer span,
+.icons a:nth-child(5) .text{
     color: #000;
     border-color: #000;
 }
@@ -120,9 +116,6 @@
     box-shadow: -1px 1px 3px #E1306C;
 }
 .icons a:hover:nth-child(4) .layer span{
-    box-shadow: -1px 1px 3px #1DA1F2;
-}
-.icons a:hover:nth-child(5) .layer span{
     box-shadow: -1px 1px 3px #4267B2;
 }
 .icons a .text{
@@ -143,7 +136,8 @@
 /********************** Media Q **********************/
 
 @media (max-width: 990px) {
-    .icons a .layer span.fab{
+    .icons a .layer span.fab,
+.icons a .layer span.fas{
         padding-top: 0;
     }
 }
@@ -159,4 +153,15 @@
     .icons a{
         margin: 5rem 2rem;
     }
+}.icons a:hover:nth-child(5) .layer span{
+    box-shadow: -1px 1px 3px #000;
+}
+/* GitHub preto some no tema escuro */
+body.dark .icons a:nth-child(5) .layer span,
+body.dark .icons a:nth-child(5) .text{
+    color: #fff;
+    border-color: #fff;
+}
+body.dark .icons a:hover:nth-child(5) .layer span{
+    box-shadow: -1px 1px 3px #fff;
 }
