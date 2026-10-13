@@ -153,15 +153,4 @@
     .icons a{
         margin: 5rem 2rem;
     }
-}.icons a:hover:nth-child(5) .layer span{
-    box-shadow: -1px 1px 3px #000;
-}
-/* GitHub preto some no tema escuro */
-body.dark .icons a:nth-child(5) .layer span,
-body.dark .icons a:nth-child(5) .text{
-    color: #fff;
-    border-color: #fff;
-}
-body.dark .icons a:hover:nth-child(5) .layer span{
-    box-shadow: -1px 1px 3px #fff;
 }

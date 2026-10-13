@@ -130,8 +130,8 @@ body.dark .contactos .site-contacto {
   color: var(--green);
 }
 
-body.dark .icons a:nth-child(6) .layer span,
-body.dark .icons a:nth-child(6) .text {
+body.dark .icons a:nth-child(5) .layer span,
+body.dark .icons a:nth-child(5) .text {
   color: #fff;
   border-color: #fff;
 }
