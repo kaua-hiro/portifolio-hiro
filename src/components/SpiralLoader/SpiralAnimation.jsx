@@ -73,7 +73,7 @@ function createStar(random) {
     return star
 }
 
-function createRenderer(ctx, size) {
+function createRenderer(ctx, width, height) {
     const random = seededRandom()
     const stars = Array.from({ length: NUMBER_OF_STARS }, () => createStar(random))
 
@@ -146,9 +146,9 @@ function createRenderer(ctx, size) {
 
     return (time) => {
         ctx.fillStyle = 'black'
-        ctx.fillRect(0, 0, size, size)
+        ctx.fillRect(0, 0, width, height)
         ctx.save()
-        ctx.translate(size / 2, size / 2)
+        ctx.translate(width / 2, height / 2)
 
         const t1 = constrain(map(time, 0, CHANGE_EVENT_TIME + 0.25, 0, 1), 0, 1)
         const t2 = constrain(map(time, CHANGE_EVENT_TIME, 1, 0, 1), 0, 1)
@@ -181,13 +181,12 @@ export default function SpiralAnimation() {
             const dpr = window.devicePixelRatio || 1
             const width = window.innerWidth
             const height = window.innerHeight
-            const size = Math.max(width, height)
-            canvas.width = size * dpr
-            canvas.height = size * dpr
+            canvas.width = width * dpr
+            canvas.height = height * dpr
             canvas.style.width = `${width}px`
             canvas.style.height = `${height}px`
             ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
-            render = createRenderer(ctx, size)
+            render = createRenderer(ctx, width, height)
         }
 
         const loop = (now) => {
