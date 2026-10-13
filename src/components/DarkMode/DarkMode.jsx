@@ -1,45 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './DarkMode.css'
+import { asButton } from '../../utils/a11y';
+
+const getInitialTheme = () => {
+    try {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') return saved;
+    } catch (err) {
+        // localStorage bloqueado (aba anônima / cookies desativados): segue com o padrão
+    }
+    return 'dark';
+};
 
 const DarkMode = () => {
-    let clickedClass = "clicked";
-    const body = document.body;
-    const lightTheme = "light";
-    const darkTheme = "dark";
-    let theme;
+    const [theme, setTheme] = useState(getInitialTheme);
 
-    if (localStorage) {
-        theme = localStorage.getItem("theme");
-    }
-
-    if (theme === lightTheme || theme === darkTheme) {
-        body.classList.add(theme);
-    } else {
-        body.classList.add(darkTheme);
-    }
-
-    const switchTheme = (e) => {
-        if (theme === darkTheme) {
-        body.classList.replace(darkTheme, lightTheme);
-        e.target.classList.remove(clickedClass);
-        localStorage.setItem("theme", "light");
-        theme = lightTheme;
-        } else {
-        body.classList.replace(lightTheme, darkTheme);
-        e.target.classList.add(clickedClass);
-        localStorage.setItem("theme", "dark");
-        theme = darkTheme;
+    // Efeito colateral no <body> fica no useEffect, não durante o render
+    useEffect(() => {
+        document.body.classList.remove('light', 'dark');
+        document.body.classList.add(theme);
+        try {
+            localStorage.setItem('theme', theme);
+        } catch (err) {
+            // sem persistência, mas o tema funciona na sessão
         }
-    };
+    }, [theme]);
+
+    const switchTheme = () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'));
+
     return (
         <div>
-            <div    
-                    className={theme === "dark" ? clickedClass : ""}
-                    id="darkMode"
-                    onClick={(e) => switchTheme(e)}
-                >
-                <span><i className="fas fa-sun"></i></span>
-                <span><i className="fas fa-moon"></i></span>
+            <div
+                className={theme === 'dark' ? 'clicked' : ''}
+                id="darkMode"
+                aria-pressed={theme === 'dark'}
+                {...asButton(switchTheme, theme === 'dark' ? 'Ativar tema claro' : 'Ativar tema escuro')}
+            >
+                <span aria-hidden="true"><i className="fas fa-sun"></i></span>
+                <span aria-hidden="true"><i className="fas fa-moon"></i></span>
             </div>
         </div>
     );

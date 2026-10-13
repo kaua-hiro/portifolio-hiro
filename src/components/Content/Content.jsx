@@ -67,7 +67,7 @@ const Content = () => (
                     </a>
                 </div>
 
-                <Link to="sobre-mi" href="#sobre-mi">
+                <Link to="sobre-mi" href="#sobre-mi" aria-label="Rolar para a seção Sobre mim">
                     <div className="scroll-down"></div>
                 </Link>
             </div>

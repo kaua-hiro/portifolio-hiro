@@ -402,3 +402,10 @@ body.dark .project-status--private {
     object-position: center; /* Centraliza a imagem no meio do corte */
     border-radius: 10px 10px 10px 10px; /* Mantém as bordinhas arredondadas no topo */
 }
+/* Área mínima de toque (WCAG 2.5.8): os botões eram espremidos no card mobile */
+.proyectos .caja .content .custom-btn {
+    min-width: 9rem;
+    min-height: 4.4rem;
+    margin: 0.4rem;
+    flex-shrink: 0;
+}

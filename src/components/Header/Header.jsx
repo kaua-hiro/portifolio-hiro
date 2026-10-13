@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import './Header.css';
 /* ReactScroll */
 import { Link } from 'react-scroll';
@@ -16,29 +16,38 @@ import { langContext } from '../../context/Context';
 const Header = () => {
     // Buttom language
     const idioma = useContext(langContext);
-    // Menu desplegable
-    const menuDesplegable = () => {
-        let navbar = document.querySelector('.navbar');
-        navbar.classList.toggle("activar");
+    const [menuOpen, setMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
-        window.onscroll = () => {
-            if (window.scrollY > 0) {
-                document.querySelector(".site-header").classList.add("activar")
-            } else document.querySelector(".site-header").classList.remove("activar")
-
-            navbar.classList.remove("activar")
-        }
-    }
+    // Header "ativo" ao rolar + fecha o menu mobile. Antes isto só era
+    // registrado depois do primeiro clique no menu.
+    useEffect(() => {
+        const onScroll = () => {
+            setScrolled(window.scrollY > 0);
+            setMenuOpen(false);
+        };
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
+        return () => window.removeEventListener("scroll", onScroll);
+    }, []);
 
     return (
-        <header className="site-header">
-            <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
+        <header className={`site-header ${scrolled ? "activar" : ""}`}>
+            <button
+                type="button"
+                id="menu-btn"
+                className="fas fa-bars"
+                aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
+                aria-expanded={menuOpen}
+                aria-controls="site-navbar"
+                onClick={() => setMenuOpen((o) => !o)}
+            ></button>
 
             <NavLink className="logo" to="/">
                 <p><span>Kaua Hiro Mizumoto</span></p>
             </NavLink>
 
-            <nav className="navbar">
+            <nav id="site-navbar" className={`navbar ${menuOpen ? "activar" : ""}`} aria-label="Navegação principal">
                 <Link to="inicio" spy={true} offset={-150} href="#inicio">
                     <FormattedMessage
                         id='home'
@@ -71,8 +80,12 @@ const Header = () => {
                     />
                 </Link>
                 <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nationalflag.io/4x3/us.svg" alt="English" style={{ width: '30px', cursor: 'pointer' }} />
-                    <img onClick={() => idioma.selectLanguage('pt-BR')} src="https://nationalflag.io/4x3/br.svg" alt="Português" style={{ width: '30px', cursor: 'pointer' }} />
+                    <button type="button" className="lang-btn" onClick={() => idioma.selectLanguage('en-US')} aria-label="Switch to English" lang="en">
+                        <img src="https://flagcdn.com/us.svg" alt="" width="30" height="20" />
+                    </button>
+                    <button type="button" className="lang-btn" onClick={() => idioma.selectLanguage('pt-BR')} aria-label="Mudar para português" lang="pt-BR">
+                        <img src="https://flagcdn.com/br.svg" alt="" width="30" height="20" />
+                    </button>
                 </div>
             </nav>
             <div className="switch" id="switch">

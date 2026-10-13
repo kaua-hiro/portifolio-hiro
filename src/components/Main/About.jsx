@@ -90,70 +90,70 @@ const About = () => (
                 <h4>Front-End</h4>
                 <div className="skill">
                     <div>
-                        <img alt="HTML" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+                        <img loading="lazy" alt="HTML" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
                         <h5>HTML</h5>
                     </div>
                     <div>
-                        <img alt="CSS" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+                        <img loading="lazy" alt="CSS" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
                         <h5>CSS</h5>
                     </div>
                     <div>
-                        <img alt="Js" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
+                        <img loading="lazy" alt="Js" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
                         <h5>JavaScript</h5>
                     </div>
                     <div>
-                        <img alt="typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                        <img loading="lazy" alt="typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                         <h5>TypeScript</h5>
                     </div>
                     <div>
-                        <img alt="NextJS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+                        <img loading="lazy" alt="NextJS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
                         <h5>NextJS</h5>
                     </div>
                     <div>
-                        <img alt="jQuery" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
+                        <img loading="lazy" alt="jQuery" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
                         <h5>jQuery</h5>
                     </div>
                     <div>
-                        <img alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        <img loading="lazy" alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                         <h5>React</h5>
                     </div>
                     <div>
-                        <img alt="Tailwind" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                        <img loading="lazy" alt="Tailwind" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
                         <h5>Tailwind</h5>
                     </div>
                 </div>
                 <h4>Back-End</h4>
                 <div className="skill">
                     <div>
-                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                        <img loading="lazy" alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
                         <h5>NodeJs</h5>
                     </div>
                     <div>
-                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" />
+                        <img loading="lazy" alt="Prisma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" />
                         <h5>Prisma ORM</h5>
                     </div>
                     <div>
-                        <img alt="python" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                        <img loading="lazy" alt="python" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                         <h5>Python</h5>
                     </div>
                     <div>
-                        <img alt="fastapi" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
+                        <img loading="lazy" alt="fastapi" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
                         <h5>FastAPI</h5>
                     </div>
                     <div>
-                        <img alt="mysql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                        <img loading="lazy" alt="mysql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
                         <h5>MySQL</h5>
                     </div>
                     <div>
-                        <img alt="postgresql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
+                        <img loading="lazy" alt="postgresql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
                         <h5>PostgreSQL</h5>
                     </div>
                     <div>
-                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
+                        <img loading="lazy" alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
                         <h5>MongodDB</h5>
                     </div>
                     <div>
-                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" />
+                        <img loading="lazy" alt="SQL Server" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" />
                         <h5>SQL Server</h5>
                     </div>
                 </div>
@@ -165,18 +165,18 @@ const About = () => (
                 </h4>
                 <div className="skill">
                     <div>
-                        <img alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" />
+                        <img loading="lazy" alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" />
                         <h5>Figma</h5>
                     </div>
                     <div>
-                        <img alt="microsoft azure" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" title="Microsoft Azure" />
+                        <img loading="lazy" alt="microsoft azure" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" title="Microsoft Azure" />
                         <h5>Microsoft Azure</h5>
                     </div>
                     <div>
-                        <img alt="Visual Studio Code" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="Visual Studio Code" />
+                        <img loading="lazy" alt="Visual Studio Code" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="Visual Studio Code" />
                         <h5>VS Code</h5></div>
                     <div>
-                        <img alt="git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
+                        <img loading="lazy" alt="git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
                         <h5>Git</h5>
                     </div>
                 </div>

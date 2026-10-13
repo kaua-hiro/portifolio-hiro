@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SpiralAnimation from './SpiralAnimation'
 import './SpiralLoader.css'
 
-export default function SpiralLoader() {
+export default function SpiralLoader({ onSkip }) {
     const [textVisible, setTextVisible] = useState(false)
 
     useEffect(() => {
@@ -10,8 +10,14 @@ export default function SpiralLoader() {
         return () => clearTimeout(timer)
     }, [])
 
+    useEffect(() => {
+        const onKey = (e) => e.key === 'Escape' && onSkip && onSkip()
+        window.addEventListener('keydown', onKey)
+        return () => window.removeEventListener('keydown', onKey)
+    }, [onSkip])
+
     return (
-        <div className="spiral-loader" role="status" aria-live="polite">
+        <div className="spiral-loader" role="status" aria-live="polite" onClick={onSkip} title="Clique para pular">
             <SpiralAnimation />
             <span className={`spiral-loader__text ${textVisible ? 'is-visible' : ''}`}>Loading</span>
         </div>

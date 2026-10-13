@@ -4,12 +4,10 @@ import { loadFull } from "tsparticles";
 
 export default function ParticleHeaderBg() {
     const particlesInit = async (main) => {
-        console.log(main);
         await loadFull(main);
     };
     
     const particlesLoaded = (container) => {
-        console.log(container);
     };
 
     // A sua Stack Tecnológica isolada para manter o código limpo

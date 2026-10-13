@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { asButton } from '../../utils/a11y';
 import './AboutPage.css'
 
 /* Componet */
@@ -8,25 +9,16 @@ import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import cv from '../../cv/cv.pdf';
 
 /* Multi idioma */
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 
 /* Img */
 import imgabout from '../../img/home.jpg';
 
 const About = () => {
 
-  function readMore() {
-    let btnHide = document.querySelector("#btn-hide");
-    let parrafoActive = document.querySelector(".parrafo-active");
-
-    parrafoActive.classList.toggle("show");
-
-    if (parrafoActive.classList.contains("show")) {
-      btnHide.innerHTML = "↑";
-    } else {
-      btnHide.innerHTML = "Read more";
-    }
-  }
+  const [expanded, setExpanded] = useState(false);
+  const { locale } = useIntl();
+  const isPt = locale === 'pt-BR';
 
   return (
     <div>
@@ -37,7 +29,7 @@ const About = () => {
         <section className="sobre-mi-seccion" id="sobre-mi">
           <div className="sobre-mi-container">
             <div className="sobre-mi-img-container">
-              <img src={imgabout} alt="" className="sobre-mi-img" />
+              <img src={imgabout} alt="Foto de Kauã Hiro Mizumoto" className="sobre-mi-img" width="480" height="640" />
               
               <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
                   <FormattedMessage
@@ -54,7 +46,7 @@ const About = () => {
                 />
               </p>
 
-              <div className="hide parrafo-active">
+              <div id="sobre-mi-mais" className={`hide parrafo-active ${expanded ? "show" : ""}`}>
                 <p>
                   <FormattedMessage
                     id='about-info-2'
@@ -71,7 +63,15 @@ const About = () => {
               </div>
 
               <div className="btn-info">
-                <div className="custom-btn btn-codigo" id="btn-hide" onClick={readMore}><span>Read more</span></div>
+                <div
+                  className="custom-btn btn-codigo"
+                  id="btn-hide"
+                  aria-expanded={expanded}
+                  aria-controls="sobre-mi-mais"
+                  {...asButton(() => setExpanded((v) => !v))}
+                >
+                  <span>{expanded ? '↑' : (isPt ? 'Ler mais' : 'Read more')}</span>
+                </div>
               </div>
             </div>
 
@@ -81,7 +81,7 @@ const About = () => {
             <h1 className="heading">Skills</h1>
             <div className="skill-container">
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="Python" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+                <img loading="lazy" alt="Python" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
                 <h2 className="skill-name">Python</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -91,7 +91,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="CSS" className="skills-img icon-li" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" title="Java Script" />
+                <img loading="lazy" alt="JavaScript" className="skills-img icon-li" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" title="Java Script" />
                 <h2 className="skill-name">JavaScript</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -101,7 +101,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="Js" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" />
+                <img loading="lazy" alt="React" className="skills-img icon-li" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" />
                 <h2 className="skill-name">React</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -111,7 +111,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="Sass" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" title="MySQL" />
+                <img loading="lazy" alt="MySQL" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" title="MySQL" />
                 <h2 className="skill-name">MySQL</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -121,7 +121,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-down" data-aos-delay="300">
-                <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" title="Node.js" />
+                <img loading="lazy" alt="Node.js" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" title="Node.js" />
                 <h2 className="skill-name">Node.js</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -131,7 +131,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="FastAPI" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" title="FastAPI" />
+                <img loading="lazy" alt="FastAPI" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" title="FastAPI" />
                 <h2 className="skill-name">FastAPI</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -141,7 +141,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="Git" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" />
+                <img loading="lazy" alt="Git" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" />
                 <h2 className="skill-name">Git</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -151,7 +151,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="html5" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" />
+                <img loading="lazy" alt="html5" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" />
                 <h2 className="skill-name">HTML5</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -161,7 +161,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="css3" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" />
+                <img loading="lazy" alt="css3" className="skills-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" />
                 <h2 className="skill-name">CSS3</h2>
                 <p className="skill-info">
                   <FormattedMessage

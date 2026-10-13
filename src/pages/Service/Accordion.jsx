@@ -1,18 +1,28 @@
 import React, { useState } from 'react';
 
 function Accordion(props) {
-    const [setActive, setActiveState] = useState("");
+    const [open, setOpen] = useState(false);
 
-    function activeAcordion() {
-        setActiveState(setActive === "" ? "active" : "");
-    }
+    const toggle = () => setOpen((o) => !o);
 
     return (
         <div data-aos={props.dataAos} data-aos-delay={props.dataAosDelay} >
-            <div className={`accordion ${setActive}`} onClick={activeAcordion}>
-                <div className="accordion-heading">
+            <div className={`accordion ${open ? 'active' : ''}`}>
+                <div
+                    className="accordion-heading"
+                    role="button"
+                    tabIndex={0}
+                    aria-expanded={open}
+                    onClick={toggle}
+                    onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault()
+                            toggle()
+                        }
+                    }}
+                >
                     <h3>{props.title}</h3>
-                    <i className="fas fa-angle-down"></i>
+                    <i className="fas fa-angle-down" aria-hidden="true"></i>
                 </div>
                 <p className="accordioin-content">
                     {props.content}

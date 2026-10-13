@@ -303,3 +303,29 @@ body.dark #darkMode::after {
     width: 100%;
   }
 }
+
+/* Botões nativos (acessíveis por teclado) sem o visual padrão do navegador */
+button#menu-btn,
+.lang-btn {
+  background: none;
+  font: inherit;
+  padding: 0;
+}
+
+button#menu-btn {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.lang-btn {
+  cursor: pointer;
+  margin-right: 1rem;
+  line-height: 0;
+}
+
+.lang-btn img {
+  width: 30px;
+  height: auto;
+  margin: 0;
+}

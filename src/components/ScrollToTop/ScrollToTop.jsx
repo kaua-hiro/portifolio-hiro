@@ -7,13 +7,10 @@ const ScrollToTop = () => {
     const [backToTopButtom, setBackTopButton]= useState(false);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 100) {
-                setBackTopButton(true);
-            } else {
-                setBackTopButton(false);
-            }
-        })
+        const onScroll = () => setBackTopButton(window.scrollY > 100);
+        window.addEventListener("scroll", onScroll, { passive: true });
+        // Remove o listener ao trocar de página (antes ele vazava a cada navegação)
+        return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
     const scrollUp = () => {
@@ -25,8 +22,8 @@ const ScrollToTop = () => {
 
     return <div className='App'>
             {backToTopButtom && (
-                <button className='cm-up' onClick={scrollUp}> 
-                    <span className="cm-icon">
+                <button className='cm-up' onClick={scrollUp} aria-label="Voltar ao topo">
+                    <span className="cm-icon" aria-hidden="true">
                         <i className="fas fa-chevron-up"></i>
                     </span>
                 </button>

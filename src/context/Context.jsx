@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import MensajeIngles from './../language/en.json';
 import MensajePortugues from './../language/pt.json';
 import {IntlProvider} from 'react-intl';
@@ -8,7 +8,12 @@ const langContext = React.createContext();
 const LangProvider = ({children}) => {
     let localePorDefecto;
     let mensajesPorDefecto;
-    const lang = localStorage.getItem('lang');
+    let lang = null;
+    try {
+        lang = localStorage.getItem('lang');
+    } catch (err) {
+        // localStorage indisponível: usa o idioma padrão
+    }
 
     if(lang){
         localePorDefecto = lang;
@@ -29,22 +34,27 @@ const LangProvider = ({children}) => {
     const [mensaje, setMensaje] = useState(mensajesPorDefecto);
     const [locale, setLocale] = useState(localePorDefecto);
 
+    // Leitores de tela, tradutor do navegador e buscadores leem o idioma daqui
+    useEffect(() => {
+        document.documentElement.lang = locale;
+    }, [locale]);
+
     const selectLanguage = (language) =>{
         switch (language) {
             case 'pt-BR':
                 setMensaje(MensajePortugues);
                 setLocale('pt-BR');
-                localStorage.setItem('lang', 'pt-BR');
+                try { localStorage.setItem('lang', 'pt-BR'); } catch (err) { /* sem persistência */ }
                 break;
             case 'en-US':
                 setMensaje(MensajeIngles);
                 setLocale('en-US');
-                localStorage.setItem('lang', 'en-US');
+                try { localStorage.setItem('lang', 'en-US'); } catch (err) { /* sem persistência */ }
                 break;
             default:
                 setMensaje(MensajePortugues);
                 setLocale('pt-BR');
-                localStorage.setItem('lang', 'pt-BR');
+                try { localStorage.setItem('lang', 'pt-BR'); } catch (err) { /* sem persistência */ }
         }
     }
 

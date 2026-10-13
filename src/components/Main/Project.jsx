@@ -38,8 +38,8 @@ const Project = () => {
                     {/* PROJETO 16 (PAINEL ECONOMICO + CHAT) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-36.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-36.webp')}
                             alt='Painel Econômico & Chat em Tempo Real'
                         />
                         <div className="content">
@@ -58,7 +58,7 @@ const Project = () => {
                     {/* PROJETO 1 (STUDIO ARQUITETURA) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img src={require('../../img/projeto-33.png')} alt='Studio Arquitetura' />
+                        <img loading="lazy" src={require('../../img/projeto-33.webp')} alt='Studio Arquitetura' />
                         <div className="content">
                             <h3>Studio Arquitetura</h3>
                             <p>Landing Page de Arquitetura &amp; Interiores</p>
@@ -73,7 +73,7 @@ const Project = () => {
                     {/* PROJETO 2 */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--private">Projeto interno</span>
-                        <img src={require('../../img/projeto-23.png')}
+                        <img loading="lazy" src={require('../../img/projeto-23.webp')}
                          alt='TechTeamIA' />
                         <div className="content">
                             <h3>TechTeamIA</h3>
@@ -87,7 +87,7 @@ const Project = () => {
 
                     {/* PROJETO 3 
                     <SwiperSlide className='caja'>
-                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Automacao+NFe" alt="Automação NFe" />
+                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Automacao+NFe" alt="Automação NFe" />
                         <div className="content">
                             <h3>Automação NFe</h3>
                             <p>Integração de Dados Fiscais</p>
@@ -100,7 +100,7 @@ const Project = () => {
 
                     {/* PROJETO 4 (FLOW REMINDER) 
                     <SwiperSlide className='caja'>
-                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Flow+Reminder+API" alt="Flow-Reminder API" />
+                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Flow+Reminder+API" alt="Flow-Reminder API" />
                         <div className="content">
                             <h3>Flow-Reminder API</h3>
                             <p>Mensageria & WhatsApp</p>
@@ -113,7 +113,7 @@ const Project = () => {
 
                     {/* PROJETO 5 (CRYPTO EXCHANGE) 
                     <SwiperSlide className='caja'>
-                        <img src="https://placehold.co/600x400/111111/FFFFFF?text=Crypto+Exchange" alt="Crypto Exchange" />
+                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Crypto+Exchange" alt="Crypto Exchange" />
                         <div className="content">
                             <h3>Crypto Exchange</h3>
                             <p>Consumo de APIs Financeiras</p>
@@ -127,7 +127,7 @@ const Project = () => {
                     {/* PROJETO 6 */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--private">Projeto interno</span>
-                        <img src={require('../../img/projeto-22.png')}
+                        <img loading="lazy" src={require('../../img/projeto-22.webp')}
                          alt='Bot Dados Econômicos' />
                         <div className="content">
                             <h3>Bot Dados Econômicos</h3>
@@ -142,8 +142,8 @@ const Project = () => {
                     {/* PROJETO 7 POKEDEX */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-18.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-18.webp')}
                             alt='Pokedex API'
                         />
                         <div className="content">
@@ -162,8 +162,8 @@ const Project = () => {
                     {/* PROJETO 8 (BARBERLAB SAAS)*/}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-24.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-24.webp')}
                             alt='BarberLab SaaS'
                         />
                         <div className="content">
@@ -182,8 +182,8 @@ const Project = () => {
                     {/* PROJETO 11 (VERNIZ ATELIER) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-34.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-34.webp')}
                             alt='Verniz Atelier'
                         />
                         <div className="content">
@@ -202,8 +202,8 @@ const Project = () => {
                     {/* PROJETO 12 (FOCINHO FELIZ PET SHOP) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-27.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-27.webp')}
                             alt='Focinho Feliz Pet Shop'
                         />
                         <div className="content">
@@ -222,8 +222,8 @@ const Project = () => {
                     {/* PROJETO 13 (LEDGER - GESTAO FINANCEIRA) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-28.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-28.webp')}
                             alt='Ledger - Gestão Financeira'
                         />
                         <div className="content">
@@ -242,8 +242,8 @@ const Project = () => {
                     {/* PROJETO 14 (TELA DE LOGIN) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-35.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-35.webp')}
                             alt='Tela de Login'
                         />
                         <div className="content">
@@ -262,8 +262,8 @@ const Project = () => {
                     {/* PROJETO 15 (ARANHA-VERSO HUB) */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
-                        <img
-                            src={require('../../img/projeto-30.png')}
+                        <img loading="lazy"
+                            src={require('../../img/projeto-30.webp')}
                             alt='Aranha-Verso Hub'
                         />
                         <div className="content">

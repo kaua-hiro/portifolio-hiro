@@ -29,7 +29,6 @@ const Contact = () => (
                     'Email', 1500,
                     'WhatsApp', 1500,
                     'Instagram', 1500,
-                    'Telegram', 1500,
                     'Linkedin', 1500,
                     'Github', 1500,
                 ]}
@@ -44,7 +43,7 @@ const Contact = () => (
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span className="fab fas fa-envelope"></span>
+                    <span className="fas fa-envelope" aria-hidden="true"></span>
                 </div>
                 <div className="text">
                     Email
@@ -72,18 +71,6 @@ const Contact = () => (
                 </div>
                 <div className="text">
                     Instagram
-                </div>
-            </a>
-            <a href="https://t.me/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-telegram"></span>
-                </div>
-                <div className="text">
-                    telegram
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/kauamizumoto/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">

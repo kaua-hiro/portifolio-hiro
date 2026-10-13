@@ -230,3 +230,22 @@ body.dark .btn::after {
         font-size: 3rem;
     }
 }
+/* Foco visível para quem navega por teclado (não aparece no clique do mouse) */
+:focus-visible {
+    outline: 3px solid var(--green);
+    outline-offset: 3px;
+}
+
+/* Respeita quem pede menos movimento no sistema (labirintite, enxaqueca, epilepsia) */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
