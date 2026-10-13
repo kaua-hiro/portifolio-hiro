@@ -11,6 +11,7 @@ import About from "./pages/About/AboutPage";
 import Services from "./pages/Service/ServicesPage";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
+import SpiralLoader from "./components/SpiralLoader/SpiralLoader"
 
 
 function App() {
@@ -28,12 +29,7 @@ function App() {
             {
                 loading ?
 
-                    <div className='loading-pag'>
-                        <div className="loader">
-                            <span>Kaua Hiro Mizumoto</span>
-                            <span>Kaua Hiro Mizumoto</span>
-                        </div>
-                    </div>
+                    <SpiralLoader />
 
                     :
 
