@@ -99,19 +99,6 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
 
-                    {/* PROJETO 4 (FLOW REMINDER) */}
-                    <SwiperSlide className='caja'>
-                        <img loading="lazy" src={require('../../img/projeto-flow-reminder.webp')} alt="Flow-Reminder — SaaS de lembretes automáticos para agendamentos" width="1200" height="500" />
-                        <div className="content">
-                            <h3>Flow-Reminder</h3>
-                            <p>Lembretes automáticos (SaaS)</p>
-                            <p className="tecnologias">
-                                Next.js <span> -</span> Prisma <span> -</span> Supabase
-                            </p>
-                            <a href="https://github.com/kaua-hiro/flow-reminder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
-                        </div>
-                    </SwiperSlide>
-
                     {/* PROJETO 6 */}
                     <SwiperSlide className='caja'>
                         <span className="project-status project-status--private"><FormattedMessage id="project-private" defaultMessage="Projeto interno" /></span>
