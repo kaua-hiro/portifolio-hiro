@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portifolio-hiro/static/css/main.9b3304c4.css",
-    "main.js": "/portifolio-hiro/static/js/main.fdfede5e.js",
+    "main.css": "/portifolio-hiro/static/css/main.de951ea5.css",
+    "main.js": "/portifolio-hiro/static/js/main.ccd2e5ad.js",
     "static/js/787.0606638d.chunk.js": "/portifolio-hiro/static/js/787.0606638d.chunk.js",
-    "static/media/projeto-30.png": "/portifolio-hiro/static/media/projeto-30.bc35ed2d088023e17d8b.png",
-    "static/media/projeto-24.png": "/portifolio-hiro/static/media/projeto-24.595268c930d055428314.png",
-    "static/media/projeto-33.png": "/portifolio-hiro/static/media/projeto-33.3e6affdd5c9991f0a9ad.png",
     "static/media/cv.pdf": "/portifolio-hiro/static/media/cv.abc53957cee66a180735.pdf",
-    "static/media/projeto-28.png": "/portifolio-hiro/static/media/projeto-28.239a42d06e6eaaf3a1fe.png",
-    "static/media/projeto-34.png": "/portifolio-hiro/static/media/projeto-34.f3bb328bd89829ec796c.png",
     "static/media/home.jpg": "/portifolio-hiro/static/media/home.00c0c90345753538d1c5.jpg",
-    "static/media/projeto-18.png": "/portifolio-hiro/static/media/projeto-18.bee436a634ad542c8222.png",
-    "static/media/projeto-27.png": "/portifolio-hiro/static/media/projeto-27.3a7068464ec5c4e803dc.png",
-    "static/media/projeto-36.png": "/portifolio-hiro/static/media/projeto-36.00f3f49daae301f82a48.png",
-    "static/media/projeto-22.png": "/portifolio-hiro/static/media/projeto-22.9dd73fdc5a680c8973c6.png",
-    "static/media/projeto-23.png": "/portifolio-hiro/static/media/projeto-23.f414d8d3f9334922cc02.png",
-    "static/media/projeto-35.png": "/portifolio-hiro/static/media/projeto-35.dd761ff4e139daa79466.png",
+    "static/media/projeto-24.webp": "/portifolio-hiro/static/media/projeto-24.99706f514c4e2add7419.webp",
+    "static/media/projeto-30.webp": "/portifolio-hiro/static/media/projeto-30.a9eb07efc0ff5aef2ef4.webp",
+    "static/media/projeto-27.webp": "/portifolio-hiro/static/media/projeto-27.1acc64cca36fea7eb350.webp",
+    "static/media/projeto-34.webp": "/portifolio-hiro/static/media/projeto-34.0174094f71ea6a1decbc.webp",
+    "static/media/projeto-22.webp": "/portifolio-hiro/static/media/projeto-22.da83ea460b1fcf23a41a.webp",
+    "static/media/projeto-36.webp": "/portifolio-hiro/static/media/projeto-36.1efffa001ff66abd7826.webp",
+    "static/media/projeto-18.webp": "/portifolio-hiro/static/media/projeto-18.feffa16fc83290ec32a3.webp",
+    "static/media/projeto-33.webp": "/portifolio-hiro/static/media/projeto-33.d338b12e786f73176ccc.webp",
+    "static/media/projeto-28.webp": "/portifolio-hiro/static/media/projeto-28.70cd3900e8329993fa7b.webp",
+    "static/media/projeto-23.webp": "/portifolio-hiro/static/media/projeto-23.b0310ab4fe1eefbede02.webp",
+    "static/media/projeto-35.webp": "/portifolio-hiro/static/media/projeto-35.d871e3f7c2f06c131129.webp",
     "index.html": "/portifolio-hiro/index.html",
-    "main.9b3304c4.css.map": "/portifolio-hiro/static/css/main.9b3304c4.css.map",
-    "main.fdfede5e.js.map": "/portifolio-hiro/static/js/main.fdfede5e.js.map",
+    "main.de951ea5.css.map": "/portifolio-hiro/static/css/main.de951ea5.css.map",
+    "main.ccd2e5ad.js.map": "/portifolio-hiro/static/js/main.ccd2e5ad.js.map",
     "787.0606638d.chunk.js.map": "/portifolio-hiro/static/js/787.0606638d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b3304c4.css",
-    "static/js/main.fdfede5e.js"
+    "static/css/main.de951ea5.css",
+    "static/js/main.ccd2e5ad.js"
   ]
 }
