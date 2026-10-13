@@ -69,5 +69,13 @@
     "services-questions-3": "Can AI help my business?",
     "services-questions-p3": "Yes. Implementing intelligent agents reduces internal support time and automates the search for knowledge in corporate documents.",
     "services-questions-4": "How is the development process?",
-    "services-questions-p4": "We analyze your company's business rules, design the database architecture, and develop the application with a total focus on scalability."
+    "services-questions-p4": "We analyze your company's business rules, design the database architecture, and develop the application with a total focus on scalability.",
+    "project-live": "Live demo",
+    "project-private": "Internal project",
+    "project-repo": "Repository",
+    "project-demo": "Demo",
+    "footer-rights": "All Rights Reserved.",
+    "loading": "Loading",
+    "about-read-more": "Read more",
+    "contact-email-label": "Email"
 }

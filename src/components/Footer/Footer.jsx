@@ -19,7 +19,7 @@ const Footer = () =>{
                             defaultMessage='Page created by Kaua_Mizumoto'
                         />
                     </p>
-                    <p>&copy; {fecha}. All Rights Reserved.</p>
+                    <p>&copy; {fecha}. <FormattedMessage id='footer-rights' defaultMessage='Todos os direitos reservados.' /></p>
                 </div>
                 <div className="redes-sociales">
                     <a href="https://www.linkedin.com/in/kauamizumoto/" aria-label="LinkedIn de Kauã Hiro Mizumoto" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>

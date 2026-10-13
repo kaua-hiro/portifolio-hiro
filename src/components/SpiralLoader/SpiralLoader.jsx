@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import SpiralAnimation from './SpiralAnimation'
 import './SpiralLoader.css'
+import { FormattedMessage } from 'react-intl'
 
 export default function SpiralLoader({ onSkip }) {
     const [textVisible, setTextVisible] = useState(false)
@@ -19,7 +20,7 @@ export default function SpiralLoader({ onSkip }) {
     return (
         <div className="spiral-loader" role="status" aria-live="polite" onClick={onSkip} title="Clique para pular">
             <SpiralAnimation />
-            <span className={`spiral-loader__text ${textVisible ? 'is-visible' : ''}`}>Loading</span>
+            <span className={`spiral-loader__text ${textVisible ? 'is-visible' : ''}`}><FormattedMessage id="loading" defaultMessage="Carregando" /></span>
         </div>
     )
 }

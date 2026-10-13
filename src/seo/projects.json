@@ -1,0 +1,14 @@
+[
+  { "name": "Painel Econômico & Chat", "description": "Painel de indicadores do Banco Central com chat em tempo real e assistente @bcb.", "tech": ["Next.js", "TypeScript", "Socket.IO", "Prisma"], "demo": "https://painel-economico-chat.onrender.com", "repo": "https://github.com/kaua-hiro/painel-economico-chat" },
+  { "name": "Automação NFe", "description": "Robô RPA fiscal em Python integrando a API Qive com SQL Server para manifestação de NFe, com carga incremental e logs auditáveis.", "tech": ["Python", "SQL Server", "RPA", "ETL"], "repo": "https://github.com/kaua-hiro/nfe-automation-python-sql" },
+  { "name": "Flow-Reminder", "description": "SaaS white label de automação de lembretes e notificações para agendamentos.", "tech": ["Next.js", "Prisma", "Supabase", "TypeScript"], "repo": "https://github.com/kaua-hiro/flow-reminder" },
+  { "name": "BarberLab", "description": "SaaS full-stack de agendamento para barbearias.", "tech": ["Next.js", "Prisma", "PostgreSQL"], "demo": "https://meu-saas-barbearia-dun.vercel.app/" },
+  { "name": "Ledger", "description": "Painel de gestão financeira com fluxo de caixa, orçamento por categoria e relatórios exportáveis.", "tech": ["React", "Vite", "React Router"], "demo": "https://finops-ledger-opal.vercel.app/", "repo": "https://github.com/kaua-hiro/finops-ledger" },
+  { "name": "TechTeamIA", "description": "Agente de suporte nível 1 com IA generativa e RAG sobre manuais internos.", "tech": ["Copilot Studio", "IA Generativa", "Power Automate"] },
+  { "name": "Pokedex API", "description": "Pokédex web com todas as 9 gerações consumindo a PokeAPI em tempo real.", "tech": ["JavaScript", "REST API"], "demo": "https://kaua-hiro.github.io/API_Pokedex/", "repo": "https://github.com/kaua-hiro/API_Pokedex" },
+  { "name": "Aranha-Verso Hub", "description": "Tributo interativo ao multiverso do Homem-Aranha com física de teias e dossiê em quadrinhos.", "tech": ["HTML5", "CSS3", "JavaScript"], "demo": "https://spider-verse-hub.vercel.app/", "repo": "https://github.com/kaua-hiro/spider-verse-hub" },
+  { "name": "Studio Arquitetura", "description": "Landing page para escritório de arquitetura e interiores.", "tech": ["HTML5", "CSS3", "JavaScript"], "demo": "https://hmarquiteturaprojeto.vercel.app/" },
+  { "name": "Verniz Atelier", "description": "Landing page para salão de beleza.", "tech": ["HTML", "CSS", "JavaScript"], "demo": "https://vernizatelier.vercel.app/" },
+  { "name": "Focinho Feliz", "description": "Landing page para pet shop e day care.", "tech": ["HTML", "CSS", "JavaScript"], "demo": "https://petshop-focinho-feliz.vercel.app/" },
+  { "name": "Tela de Login", "description": "Interface de autenticação em Next.js e TypeScript.", "tech": ["Next.js", "TypeScript", "React"], "demo": "https://tela-de-login-portfolio.vercel.app/" }
+]

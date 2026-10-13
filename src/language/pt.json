@@ -69,5 +69,13 @@
     "services-questions-3": "A IA pode ajudar o meu negócio?",
     "services-questions-p3": "Sim. A implementação de agentes inteligentes reduz o tempo de suporte interno e automatiza a busca por conhecimento em documentos corporativos.",
     "services-questions-4": "Como é o processo de desenvolvimento?",
-    "services-questions-p4": "Analisamos a regra de negócio da sua empresa, desenhamos a arquitetura do banco de dados e desenvolvemos a aplicação com foco total na escalabilidade."
+    "services-questions-p4": "Analisamos a regra de negócio da sua empresa, desenhamos a arquitetura do banco de dados e desenvolvemos a aplicação com foco total na escalabilidade.",
+    "project-live": "Demo ao vivo",
+    "project-private": "Projeto interno",
+    "project-repo": "Repositório",
+    "project-demo": "Demo",
+    "footer-rights": "Todos os direitos reservados.",
+    "loading": "Carregando",
+    "about-read-more": "Ler mais",
+    "contact-email-label": "E-mail"
 }

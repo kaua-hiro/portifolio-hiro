@@ -37,7 +37,7 @@ const Project = () => {
                 >
                     {/* PROJETO 16 (PAINEL ECONOMICO + CHAT) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-36.webp')}
                             alt='Painel Econômico & Chat em Tempo Real'
@@ -50,14 +50,14 @@ const Project = () => {
                                 <span> -</span> TypeScript
                                 <span> -</span> Socket.IO
                             </p>
-                            <a href="https://painel-economico-chat.onrender.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/painel-economico-chat" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://painel-economico-chat.onrender.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
+                            <a href="https://github.com/kaua-hiro/painel-economico-chat" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 1 (STUDIO ARQUITETURA) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy" src={require('../../img/projeto-33.webp')} alt='Studio Arquitetura' />
                         <div className="content">
                             <h3>Studio Arquitetura</h3>
@@ -65,14 +65,14 @@ const Project = () => {
                             <p className="tecnologias">
                                 HTML5 <span> -</span> CSS3 <span> -</span> JavaScript
                             </p>
-                            <a href="https://hmarquiteturaprojeto.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://hmarquiteturaprojeto.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 2 */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--private">Projeto interno</span>
+                        <span className="project-status project-status--private"><FormattedMessage id="project-private" defaultMessage="Projeto interno" /></span>
                         <img loading="lazy" src={require('../../img/projeto-23.webp')}
                          alt='TechTeamIA' />
                         <div className="content">
@@ -81,52 +81,40 @@ const Project = () => {
                             <p className="tecnologias">
                                 Copilot Studio <span> -</span> IA Generativa <span> -</span> PowerAutomate
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
-                    {/* PROJETO 3 
+                    {/* PROJETO 3 (AUTOMAÇÃO NFE) */}
                     <SwiperSlide className='caja'>
-                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Automacao+NFe" alt="Automação NFe" />
+                        <span className="project-status project-status--private"><FormattedMessage id="project-private" defaultMessage="Projeto interno" /></span>
+                        <img loading="lazy" src={require('../../img/projeto-nfe.webp')} alt="Automação NFe — robô RPA fiscal em Python com SQL Server" width="1200" height="500" />
                         <div className="content">
                             <h3>Automação NFe</h3>
                             <p>Integração de Dados Fiscais</p>
                             <p className="tecnologias">
-                                Python <span> -</span> SQL Server <span> -</span> Integração ERP
+                                Python <span> -</span> SQL Server <span> -</span> API Qive
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro/nfe-automation-python-sql" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
 
-                    {/* PROJETO 4 (FLOW REMINDER) 
+                    {/* PROJETO 4 (FLOW REMINDER) */}
                     <SwiperSlide className='caja'>
-                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Flow+Reminder+API" alt="Flow-Reminder API" />
+                        <img loading="lazy" src={require('../../img/projeto-flow-reminder.webp')} alt="Flow-Reminder — SaaS de lembretes automáticos para agendamentos" width="1200" height="500" />
                         <div className="content">
-                            <h3>Flow-Reminder API</h3>
-                            <p>Mensageria & WhatsApp</p>
+                            <h3>Flow-Reminder</h3>
+                            <p>Lembretes automáticos (SaaS)</p>
                             <p className="tecnologias">
-                                TypeScript <span> -</span> Node.js <span> -</span> WhatsApp API
+                                Next.js <span> -</span> Prisma <span> -</span> Supabase
                             </p>
-                            <a href="https://github.com/kaua-hiro/flow-reminder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro/flow-reminder" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
-                    </SwiperSlide> */}
-
-                    {/* PROJETO 5 (CRYPTO EXCHANGE) 
-                    <SwiperSlide className='caja'>
-                        <img loading="lazy" src="https://placehold.co/600x400/111111/FFFFFF?text=Crypto+Exchange" alt="Crypto Exchange" />
-                        <div className="content">
-                            <h3>Crypto Exchange</h3>
-                            <p>Consumo de APIs Financeiras</p>
-                            <p className="tecnologias">
-                                React <span> -</span> JavaScript <span> -</span> REST APIs
-                            </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
 
                     {/* PROJETO 6 */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--private">Projeto interno</span>
+                        <span className="project-status project-status--private"><FormattedMessage id="project-private" defaultMessage="Projeto interno" /></span>
                         <img loading="lazy" src={require('../../img/projeto-22.webp')}
                          alt='Bot Dados Econômicos' />
                         <div className="content">
@@ -135,13 +123,13 @@ const Project = () => {
                             <p className="tecnologias">
                                 Python <span> -</span> API BCB <span> -</span> Webhook
                             </p>
-                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/kaua-hiro" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 7 POKEDEX */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-18.webp')}
                             alt='Pokedex API'
@@ -154,14 +142,14 @@ const Project = () => {
                                 <span> -</span> Async/Await
                                 <span> -</span> REST API
                             </p>
-                            <a href="https://kaua-hiro.github.io/API_Pokedex/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/API_Pokedex" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://kaua-hiro.github.io/API_Pokedex/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
+                            <a href="https://github.com/kaua-hiro/API_Pokedex" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 8 (BARBERLAB SAAS)*/}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-24.webp')}
                             alt='BarberLab SaaS'
@@ -174,14 +162,13 @@ const Project = () => {
                                 <span> -</span> Prisma
                                 <span> -</span> PostgreSQL
                             </p>
-                            <a href="https://meu-saas-barbearia-dun.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/meu-saas-barbearia" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://meu-saas-barbearia-dun.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 11 (VERNIZ ATELIER) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-34.webp')}
                             alt='Verniz Atelier'
@@ -194,14 +181,13 @@ const Project = () => {
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                             </p>
-                            <a href="https://vernizatelier.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/labella-landing" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://vernizatelier.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 12 (FOCINHO FELIZ PET SHOP) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-27.webp')}
                             alt='Focinho Feliz Pet Shop'
@@ -214,14 +200,13 @@ const Project = () => {
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                             </p>
-                            <a href="https://petshop-focinho-feliz.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/petshop-focinho-feliz" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://petshop-focinho-feliz.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 13 (LEDGER - GESTAO FINANCEIRA) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-28.webp')}
                             alt='Ledger - Gestão Financeira'
@@ -234,14 +219,14 @@ const Project = () => {
                                 <span> -</span> Vite
                                 <span> -</span> React Router
                             </p>
-                            <a href="https://finops-ledger-opal.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/finops-ledger" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://finops-ledger-opal.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
+                            <a href="https://github.com/kaua-hiro/finops-ledger" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 14 (TELA DE LOGIN) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-35.webp')}
                             alt='Tela de Login'
@@ -254,14 +239,13 @@ const Project = () => {
                                 <span> -</span> TypeScript
                                 <span> -</span> React
                             </p>
-                            <a href="https://tela-de-login-portfolio.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/Tela-20de-20Login" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://tela-de-login-portfolio.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
                         </div>
                     </SwiperSlide>
 
                     {/* PROJETO 15 (ARANHA-VERSO HUB) */}
                     <SwiperSlide className='caja'>
-                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span>Demo ao vivo</span>
+                        <span className="project-status project-status--live"><span className="project-status__dot" aria-hidden="true"></span><FormattedMessage id="project-live" defaultMessage="Demo ao vivo" /></span>
                         <img loading="lazy"
                             src={require('../../img/projeto-30.webp')}
                             alt='Aranha-Verso Hub'
@@ -274,8 +258,8 @@ const Project = () => {
                                 <span> -</span> CSS3
                                 <span> -</span> JavaScript
                             </p>
-                            <a href="https://spider-verse-hub.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/kaua-hiro/spider-verse-hub" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://spider-verse-hub.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span><FormattedMessage id="project-demo" defaultMessage="Demo" /></span></a>
+                            <a href="https://github.com/kaua-hiro/spider-verse-hub" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer"><FormattedMessage id="project-repo" defaultMessage="Repositório" /></a>
                         </div>
                     </SwiperSlide>
 

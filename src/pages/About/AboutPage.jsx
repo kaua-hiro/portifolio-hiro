@@ -9,7 +9,7 @@ import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import cv from '../../cv/cv.pdf';
 
 /* Multi idioma */
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 /* Img */
 import imgabout from '../../img/home.jpg';
@@ -17,8 +17,6 @@ import imgabout from '../../img/home.jpg';
 const About = () => {
 
   const [expanded, setExpanded] = useState(false);
-  const { locale } = useIntl();
-  const isPt = locale === 'pt-BR';
 
   return (
     <div>
@@ -70,7 +68,7 @@ const About = () => {
                   aria-controls="sobre-mi-mais"
                   {...asButton(() => setExpanded((v) => !v))}
                 >
-                  <span>{expanded ? '↑' : (isPt ? 'Ler mais' : 'Read more')}</span>
+                  <span>{expanded ? '↑' : <FormattedMessage id='about-read-more' defaultMessage='Ler mais' />}</span>
                 </div>
               </div>
             </div>
